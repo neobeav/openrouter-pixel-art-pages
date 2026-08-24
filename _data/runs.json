@@ -1,6 +1,33 @@
 {
   "runs": [
     {
+      "id": "run-test-1787600606320",
+      "startedAt": "2026-08-24T19:43:26.320Z",
+      "status": "completed",
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      },
+      "characters": [
+        {
+          "id": "char-test",
+          "name": "Debug Char",
+          "prompt": "debug",
+          "imageData": "ZmFrZQ==",
+          "metadata": {
+            "model": "test",
+            "temperature": 0,
+            "generatedAt": "2026-08-24T19:43:26.321Z",
+            "attempts": 1,
+            "costUsd": 0
+          }
+        }
+      ]
+    },
+    {
       "id": "run-1787600436956",
       "startedAt": "2026-08-24T19:40:36.956Z",
       "status": "completed",
