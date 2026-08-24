@@ -1,3 +1,31 @@
----
----
-{ "runs": [] }
+{
+  "runs": [
+    {
+      "id": "run-1787600131744",
+      "startedAt": "2026-08-24T19:35:31.744Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1787600131744-test-knight",
+          "name": "Test Knight",
+          "prompt": "A brave pixel art knight",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAVklEQVRYhe2UMQqAQBAD5/+fHqtDEAsVD8GbYqptQpINoN9CAiwCr/bAm7xeQhPAcGHYcubKfisCFighB3pDGyLnldCHJIAisBLaG/KPIWIWJMC1I9gA8vwLdNTuxE4AAAAASUVORK5CYII=",
+          "metadata": {
+            "model": "procedural",
+            "temperature": 0,
+            "generatedAt": "2026-08-24T19:35:31.743Z",
+            "attempts": 1,
+            "costUsd": 0
+          }
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      }
+    }
+  ]
+}
