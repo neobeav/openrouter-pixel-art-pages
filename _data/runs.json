@@ -1,6 +1,33 @@
 {
   "runs": [
     {
+      "id": "run-1787600436956",
+      "startedAt": "2026-08-24T19:40:36.956Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1787600436956-iron-guardian",
+          "name": "Iron Guardian",
+          "prompt": "A hulking armored guardian",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAUUlEQVRYhe2UQQrAMAzD9P9Pa7cdO1Yoa4cCvgYR2wH0WxGAWeBRIVReKQCygEJoNbRHxG9e8eycD+B90mmEgR0EYBa4fQsIgJVi5fIAfLzCBbGysswKRLzQAAAAAElFTkSuQmCC",
+          "metadata": {
+            "model": "procedural",
+            "temperature": 0,
+            "generatedAt": "2026-08-24T19:40:36.955Z",
+            "attempts": 1,
+            "costUsd": 0
+          }
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      }
+    },
+    {
       "id": "run-1787600429506",
       "startedAt": "2026-08-24T19:40:29.506Z",
       "status": "completed",
