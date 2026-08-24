@@ -1,6 +1,33 @@
 {
   "runs": [
     {
+      "id": "run-1787601359496",
+      "startedAt": "2026-08-24T19:55:59.496Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1787601359495-beaver-with-apple",
+          "name": "Beaver with Apple",
+          "prompt": "A beaver holding a green apple",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAzUlEQVRYhWNgYGD4TwhLi/DAMQ3UMxBtGLmYYgdkO6mRjWniAAaoHDHiVHOANDQ4kQ0/pGMDx+iWIuujWghIExkd6HqoHgXSIjz/YYCQo2iWCKWxRAlFDpDG4VNqZkO5fj84xuoAaRphdMvRHMKAEgKzkywwQgAkRi5GdoDemUIUPPgcgAtT4gCYZwYsBLIH2gHSpCRCaRpEAcnlwGwahcDQcID0aBQ40bYuILs2lB5oB2QPtjZh9qgDnOgcBdIDmQgZaI8ZRh3wf0RHAQA9r6VQ8yplfQAAAABJRU5ErkJggg==",
+          "metadata": {
+            "model": "template",
+            "temperature": 0,
+            "generatedAt": "2026-08-24T19:55:59.495Z",
+            "attempts": 1,
+            "costUsd": 0
+          }
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      }
+    },
+    {
       "id": "run-1787601061560",
       "startedAt": "2026-08-24T19:51:01.560Z",
       "status": "completed",
