@@ -1,6 +1,33 @@
 {
   "runs": [
     {
+      "id": "run-1787600649043",
+      "startedAt": "2026-08-24T19:44:09.043Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1787600649043-rogue-scout",
+          "name": "Rogue Scout",
+          "prompt": "A quick scout with daggers",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAX0lEQVRYhe2TSQrAMAwD5/+fVi8hh1LSujhkk4RPIXiwbNBgYwA5AkKOKn0Jo9oYgFLPXevbxhP4qAMAuNV5E3iRAciOgGyzAoDKif1t0vyPAeQImP8KMIAcAV5C9fIFHFYjXIvxQ30AAAAASUVORK5CYII=",
+          "metadata": {
+            "model": "procedural",
+            "temperature": 0,
+            "generatedAt": "2026-08-24T19:44:09.043Z",
+            "attempts": 1,
+            "costUsd": 0
+          }
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      }
+    },
+    {
       "id": "run-1787600647478",
       "startedAt": "2026-08-24T19:44:07.478Z",
       "status": "completed",
