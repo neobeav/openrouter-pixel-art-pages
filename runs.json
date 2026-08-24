@@ -1,6 +1,33 @@
 {
   "runs": [
     {
+      "id": "run-1787600647478",
+      "startedAt": "2026-08-24T19:44:07.478Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1787600647478-dark-mage",
+          "name": "Dark Mage",
+          "prompt": "A cloaked mage with staff",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAYUlEQVRYhe2VMQrAMAwD7/+fvi6hlJIhCZjiokFTYnMgy0bwSxEAO1rAZkkALLPAodm3x1ss8P8p8KXEkCwiC4fQQ7UHYLQ6BbjrA0AsoGkKDAD7Z3ttv1DTOADGAtbm4AKBIZ/RViC49AAAAABJRU5ErkJggg==",
+          "metadata": {
+            "model": "procedural",
+            "temperature": 0,
+            "generatedAt": "2026-08-24T19:44:07.477Z",
+            "attempts": 1,
+            "costUsd": 0
+          }
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      }
+    },
+    {
       "id": "run-1787600131744",
       "startedAt": "2026-08-24T19:35:31.744Z",
       "status": "completed",
