@@ -1,6 +1,35 @@
 {
   "runs": [
     {
+      "id": "run-1787602645532",
+      "startedAt": "2026-08-24T20:17:25.532Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1787602645532-beaver-with-apple",
+          "name": "Beaver with Apple",
+          "prompt": "a beaver holding a green apple",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAb0lEQVR4nO3WQQ6AMAhE0bkN1+oJe0UMezUVRIqZn7jtvLiwQosDAUpAcSBAg8kc3wNkjssnFSA3w14IMsafINACII7xVQQI0MTxFQS2fwMWAeXfgS0A1tvjVq/b8CzP6L/+iKIhfAIBwRA9oD3gABTwkeuqTtqrAAAAAElFTkSuQmCC",
+          "metadata": {
+            "model": "procedural (fallback after 3 LLM attempts)",
+            "temperature": 0,
+            "seed": 42,
+            "generatedAt": "2026-08-24T20:17:25.514Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "path": "procedural"
+          }
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      }
+    },
+    {
       "id": "run-1787601359496",
       "startedAt": "2026-08-24T19:55:59.496Z",
       "status": "completed",
