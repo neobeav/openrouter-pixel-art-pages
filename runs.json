@@ -1,6 +1,37 @@
 {
   "runs": [
     {
+      "id": "run-1788057013412",
+      "startedAt": "2026-08-30T02:30:13.412Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788057013403-neon-jellyfish",
+          "name": "Neon Jellyfish",
+          "prompt": "A glowing neon jellyfish with translucent bell in electric blues and purples, trailing bioluminescent tentacles that pulse. Frame 1: bell contracted, tentacles gathered. Frame 2: bell expanding, tentacles extending. Frame 3: bell fully expanded, tentacles flowing outward. Frame 4: bell contracting, tentacles retracting. Loop seamless. 32x32 pixel art, limited palette, crisp outlines.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABD0lEQVR4nO2bwQ2DMAxF2YBlWKETsEDuGcADdLw/SadoJSSkCrUSgaCY+B3+CQlj+/nbF4YseyMLW4Oh9QcgAwAgMBwACIwVAATGDQAE5vsInKdnkWioua4BACj2AACAAODQBIxTWvSL+u9nV5G7xih91osDjJXyP+wA0QEYO8mfFaB7AlBLAKB7rgA3AKy0/5uIqxPYxr863txZ/jiAzgEQ3gHuXoAMALEnIAfPnxUgADh8cOxVLVqJn6rXv8gBaECKCcDrkRad+YD1Hd4KkHfqTA227/CUPwAIAHAA4QCsALECuAHEDeD2CCO+tTsCaYB1CyAAKPYA8GuYYgsA1L4JAOCgEDmocAC1b0JLfQCtuKpwC2etngAAAABJRU5ErkJggg==",
+          "metadata": {
+            "model": "procedural",
+            "temperature": 0,
+            "generatedAt": "2026-08-30T02:30:13.403Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "seed": 1502857929
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      }
+    },
+    {
       "id": "run-1787602645532",
       "startedAt": "2026-08-24T20:17:25.532Z",
       "status": "completed",
