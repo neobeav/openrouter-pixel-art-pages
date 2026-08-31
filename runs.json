@@ -1,6 +1,37 @@
 {
   "runs": [
     {
+      "id": "run-1788192625098",
+      "startedAt": "2026-08-31T16:10:25.098Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788192625091-crimson-axolotl",
+          "name": "Crimson Axolotl",
+          "prompt": "32x32 animated pixel art sprite of a cute crimson axolotl with bright pink-red body, six feathery external gills on head (lighter pink), large round black eyes with white highlights, small smile, short limbs. Holds a tiny golden trident in right hand. Wears a small aqua-blue bubble helmet on head. 4-frame animation loop: frame 1 idle standing with gills flowing down, frame 2 gills wave outward left, frame 3 idle standing again, frame 4 gills wave outward right, subtle tail wiggle each frame. Pure black background. Pixel art style with clean outlines, limited palette (crimson red, light pink, white, black, gold, aqua).",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABc0lEQVR4nO2b0W3DIBRFGaJf98uDeKMO0QE6g7tOFrDUn+5ChVUi5Do1NjzTlhPpKhGWc819hwCW4yR5pG4zcK0vAAkAgED8AgCBmAKAQH9vDfDi56aFw3++BoAQdHyFzzmqXWj86+efBUCuoRUE+M9m+f8IgH+eFp0tQnr+GeE/mee/D8DbbdHH07ipYLTVHs8rBgB/b5l/MQCPdBUA+I/GAHwVIX6xc25ZiIT31HDdHs1rTAH438zyz14DpEZR6wtYt9dcA+A/muQPAOobwOz7AEfn4KCzHcdfl+WfDcCrG74ppW7reE0A8B9M8i8CYE/+3ZkCgP9QnD8AqG8AT68B7lu0le7HK3Yef5nlDwDqG0AAEAAUkfjwVmzlEYC/TPI//EAIAIz/agCYAWDRefxVPf9Tj4S1KDz+Msn/MAB7e0/r4uM/VM2/6KHQq0c+/qqefxEA6f6zBQD4T8X5A4D6BpD/BqpvAYDaFwEAfkEQ6lSf6vmosC2AlIAAAAAASUVORK5CYII=",
+          "metadata": {
+            "model": "minimax/minimax-m3:free",
+            "temperature": 0,
+            "generatedAt": "2026-08-31T16:10:25.090Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "seed": 885970088
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      }
+    },
+    {
       "id": "run-1788057013412",
       "startedAt": "2026-08-30T02:30:13.412Z",
       "status": "completed",
