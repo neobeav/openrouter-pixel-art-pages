@@ -1,6 +1,47 @@
 {
   "runs": [
     {
+      "id": "run-1788369344320",
+      "startedAt": "2026-09-02T17:15:44.320Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788369230642-volt-hare",
+          "name": "Volt Hare",
+          "prompt": "32x32 animated pixel art sprite of an electric rabbit-like creature with bright yellow fur, blue crackling lightning bolts along its back and ears, glowing cyan eyes, long upright ears with white tips, small fluffy tail, and red cheek sparks. It stands on two hind legs with small front paws, wearing tiny bronze wrist bracers. 4-frame animation loop: frame 1 idle standing with ears upright and a small spark on tail, frame 2 ears tilt slightly left and crackle spark appears between ears, frame 3 idle with small electric arc jumping from paw to ground, frame 4 ears tilt right and tail spark flares brighter. Pixel art style, clean outlines, vibrant neon palette of yellow, cyan, blue and white against transparent background.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABtElEQVR4nO2bzY2DMBCF55YeqCLKPbUt520q2gJSwDZAG17Z2fFiYxYwY09kvyeN+LP4xo8BgiFEB2RmOrJNSuDr+r+ApOZLJgC+rv9kvu/GhqWlwm8vrRV+cW7vfHdwHytwG49XERRNYoNflN07HwVAKIC1s5yLo8oVIGcb+PkahsHkxAkk+G/kvxP/wNsbonDwSdt/9QTAv79HAfADZ/DYl1oHflP+J8cA/l0HflP+k/m6GBubCXA78Jvy3yfggu811+sreHnWBvyG/PegvQn8rge/Af9zn0GlnkXBH1T9dwqqbm8IXobAv6j6H95/7I7tkKsd9uXl0bhYtAO/Cf8XgzA+AV7mBOJ2Qq8oNwc9KvOpYv+T/a3sf5YBku+pcwqgJJ8q9j+3AES/E/A7nkY3fX7cFgnYdfM2kh8rxPxUAdTkPyv2P+jrNDpObf99EgyPE4i3lToDwb+p+H/4Rcz8MuSmivzTnSfwsw9AcDA0DoCQTOf80wWgxZfpPXXPT36FOn2SN9jOx8HGafLFZDrnqycAvlEvgOCPBwoFAP6f6hfABqRGAuCTqv8QBEEQBFFT+gH/f+ZONNIB3QAAAABJRU5ErkJggg==",
+          "metadata": {
+            "model": "minimax/minimax-m3:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-02T17:13:50.641Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "seed": 923367773
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      },
+      "criticAttempts": {
+        "char-1788369230642-volt-hare": [
+          {
+            "attempt": 1,
+            "verdict": null,
+            "reason": "",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788192625098",
       "startedAt": "2026-08-31T16:10:25.098Z",
       "status": "completed",
