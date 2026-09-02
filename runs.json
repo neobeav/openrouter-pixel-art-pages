@@ -1,6 +1,47 @@
 {
   "runs": [
     {
+      "id": "run-1788378497192",
+      "startedAt": "2026-09-02T19:48:17.192Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788378454149-cinder-jackal",
+          "name": "Cinder Jackal",
+          "prompt": "A small jackal-like creature made of crackling embers and dark volcanic rock. Body is charcoal grey with glowing orange seams running along its limbs, ears and tail. Eyes are bright cyan-white coals. A wisp of flame flickers from the tip of its tail. Small curved horns made of obsidian on its head. 32x32 pixel art animated sprite, 4-frame loop: Frame 1: idle stance, all four legs planted, flame tail low, embers glowing softly. Frame 2: front legs lift slightly, embers brighten, tail flame flares upward. Frame 3: front paws reach forward as if prowling, body lowers, cyan eyes flare brighter, tail flame leans forward. Frame 4: settle back into idle stance similar to frame 1 but with embers dimmer and tail flame curled inward, completing the prowling-step cycle. Palette: charcoal #2a2a2a, ember orange #ff6a1a, bright flame yellow #ffd24a, cyan eye #7df9ff, obsidian black #0a0a12, smoke grey #555555. Pixel art style, clean outlines, limited palette, no anti-aliasing, centered on transparent background, designed to read clearly at 32x32 with subtle glow effects on hot spots.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABnklEQVR4nO2ZMXLDIBBFqVWqVJlyK9c6QnpdIndIn/PlNqnIgLUKYZCN0cLa4v+ZHXuwxm/5uwI0MgaCIAiCIChDRGRd5I5LC3xS9d+D7Pe7zR13mufZavIlRZ3zr6Cvi80dd8Xn0OBLizrnm2l6201gGMbqK0AJX1JT53zjIC6BeL/hBGrvQ+CPqv77AvB+wwcPDl+cdR9alsWG0ZpfS0Pn/O20mUogPojYj0k8GfBJ1X8UgPq+AbYEPn+sj/h7uAfVWI7AJ1X/swvg4Bzgn8d/3IHU9wr4twetuplAzT0QfBX/7xaAH1P8NQoNAP4o73/qtJkTnID7PLIcgU+q/h8vwMEDCfik6n9RAfg51YPXDuSxVvxt8gG/5fzNSfjHGsDB1+DfmhoQ8Ismb8DfLYB7KcEvJlLLT9gAJYW/VwDwL038P1aA4BrwX9N/9QTAp+dogPgFRLy3pxIohgrwJdhd81Mdt3c37oWoAQ/yJdhd87nrtoiWkhaTv8VP5Qs+ifr/z1yNAoD/HP5n/XntBgCf0ABoQNJZASAIMufTL5nYn5xqQ+z6AAAAAElFTkSuQmCC",
+          "metadata": {
+            "model": "minimax/minimax-m3:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-02T19:47:34.149Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "seed": 1327457191
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      },
+      "criticAttempts": {
+        "char-1788378454149-cinder-jackal": [
+          {
+            "attempt": 1,
+            "verdict": null,
+            "reason": "",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788369344320",
       "startedAt": "2026-09-02T17:15:44.320Z",
       "status": "completed",
