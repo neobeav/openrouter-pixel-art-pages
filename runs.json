@@ -1,6 +1,47 @@
 {
   "runs": [
     {
+      "id": "run-1788411586503",
+      "startedAt": "2026-09-03T04:59:46.503Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788411321735-quartz-raccoon",
+          "name": "Quartz Raccoon",
+          "prompt": "A small anthropomorphic raccoon alchemist character, 32x32 pixel art, animated sprite sheet with 4 frames in a horizontal row. The raccoon stands upright on two legs, has gray and black fur with a distinctive white facial mask, a bushy ringed tail, and wears a tiny pointed emerald-green wizard hat with a yellow star. It holds a glowing cyan potion flask in its right paw and wears a brown leather belt with three small pouches. The raccoon has large curious eyes and a small black nose. Frame 1: idle stance, slight breathing motion, tail still. Frame 2: tail swaying to the left, potion flask glowing brighter. Frame 3: tail centered, slight hop upward, both feet off ground. Frame 4: tail swaying to the right, potion flask dimming back to normal. Background transparent. Color palette: gray (#808080), black (#202020), white (#FFFFFF), emerald green (#2E8B57), yellow (#FFD700), cyan glow (#00FFFF), brown (#8B4513). Pixel art style, clean readable silhouette, suitable for a 2D RPG game.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABgElEQVR4nO2ZwQ2DMAxFs0PvFRN0Bi6dgRm6he8s01l66bWnruEqqI6gcgqqAl+k35IPEYT39W2iRAkBGHoPSn5F/p/6Tr3cSgD5HdT/VID44ZioBiA/QPxnAfo/bcDc0ju3FH0TR/5+/IcLIL/DNkDbthpTRNy059488vfv/88CVBXaAEp+uT1IznxLb07TNMUEkC9Q/4e/KUb86DhsnJtDfh3+B4ONBYzHa3cg+Qr1P3WgV4itGoB8nP+TAnjhzenPh1UagPzt/Q+5nXduB15aAPmC8X/u6GUZYZYlBZAvUP8XF+D6eKZMR5MCu1DyBeo/CyD//QMkAeMlxssB9k7bpZY0gPwDxP9JB94uxyENauNhE7JyA5AvEP8nhfgmIEHf58+Y8Rn5dfg/ewzzBBS7jSI/oP1ffA7/fIf8OvyHCyBfsA3gFcG7ilxyTUn+Pv1fJODzffLr8R8ugHxhA7ABhSsAVyDZfgW2s2Uuc3PIr8N/uADyG2wDMBiMsL94AcNDBQomVQEsAAAAAElFTkSuQmCC",
+          "metadata": {
+            "model": "minimax/minimax-m3:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-03T04:55:21.735Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "seed": 1600377397
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      },
+      "criticAttempts": {
+        "char-1788411321735-quartz-raccoon": [
+          {
+            "attempt": 1,
+            "verdict": null,
+            "reason": "",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788411130354",
       "startedAt": "2026-09-03T04:52:10.354Z",
       "status": "completed",
