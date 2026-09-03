@@ -1,6 +1,47 @@
 {
   "runs": [
     {
+      "id": "run-1788407381380",
+      "startedAt": "2026-09-03T03:49:41.380Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788407357990-amber-foxfire",
+          "name": "Amber Foxfire",
+          "prompt": "32x32 animated pixel art sprite, 4 frames in a seamless loop. A small mystical fox made of glowing amber and orange flame-like fur, with bright cyan eyes, a flickering white-tipped tail like a candle flame, and tiny ember particles trailing from its paws. Body is deep orange with yellow highlights, ears tipped in red. 4-frame animation: frame 1 idle standing, frame 2 slight crouch, frame 3 flame tail flickers up with brighter glow, frame 4 returns to idle with ember spark puff. Pixel art style, bold outlines, limited palette of orange, yellow, red, cyan, and black. Transparent background, game-ready sprite.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAACKklEQVR4nO2bsW6DMBCGWSJFVqcOVcUjdO5UqVLnPkIfxU+Tsc/RqX0Tj1mZqA710GHsgO2zXXT+pRMJEL4/9o9NIui6pqacGn/eRle1VhegucOvl2W1EAgMAKoF4JjS/XmktWc7ZwBi+JzSwvnpAUicAmo3gBbOjzbAdRFYuwG0cH6ygVRjtRtAC+d7AebjbqwZgL38VGnh/BUAwDCUwxJqywDO/7X4qdLC+SsT9py+BU8NQCqfQ1o4fxpuAPbw+e28sIP1mEj6ua9nxWIuls8lI5w/GYACkHp5X8Dh/a0AcPz7F8vnkhHOXxlAE/i6dAD28rlkhPMnA9CZNIFX/TgB0QBszzkFxPC5ZITzZwOwBDBUr07za7qdfg7WcYQgls8lI5w/D0EUjkVN3ApADT6XjHC+14QPjomkVZKfQ0Y4f2ECjdD3rv24Oj+Un0tGOH9lZsskdwD28EvJSOPTeQcKOtZeR81xByCEn0O9VD4FQg2Xp9X8jgX70RGAI6WhfO6G6CXzbbBdPiOcnR/D52qEXji/BUAJDgCFhxrgMNH4p6rt7+yErTko5xnQ+Kp4+zs7YE/lDEDjqzLtj8MMHAz/y/cBcTtehXI+ARTD52J30vkQAFjSu07s36H2HSk5HgML4eeQFs5fGMB1mDTXNu5nAEP5OU+AriAfVZT/en8eueuI/IFcbdvHow+7uHhwAhz1+wcZzXLgf8Qf/kYAl3w3upZ6Ejr1+/8CFDUhjYPbjaAAAAAASUVORK5CYII=",
+          "metadata": {
+            "model": "minimax/minimax-m3:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-03T03:49:17.990Z",
+            "attempts": 2,
+            "costUsd": 0,
+            "seed": 845306071
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 2
+      },
+      "criticAttempts": {
+        "char-1788407357990-amber-foxfire": [
+          {
+            "attempt": 1,
+            "verdict": null,
+            "reason": "",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788378497192",
       "startedAt": "2026-09-02T19:48:17.192Z",
       "status": "completed",
