@@ -1,6 +1,47 @@
 {
   "runs": [
     {
+      "id": "run-1788465006331",
+      "startedAt": "2026-09-03T19:50:06.331Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788464932803-verdant-frog-sage",
+          "name": "Verdant Frog Sage",
+          "prompt": "32x32 animated pixel art sprite, 4-frame idle-hop loop. A small green frog sage standing upright on hind legs, wearing a tiny woven brown leaf cloak and a glowing cyan crystal amulet around its neck. The frog has large golden eyes with black slit pupils, lighter lime-green belly, and dark green spots on its back. It holds a thin wooden staff topped with a small glowing teal mushroom. Frame 1: standing still, staff planted on ground, blinking eyes closed. Frame 2: eyes open, slight squat preparing to hop, staff lifted. Frame 3: mid-hop, legs tucked, body airborne, staff angled forward. Frame 4: landing pose, legs extended, staff touching ground, cyan amulet and mushroom cap glowing brighter. Color palette: forest green, lime green, golden yellow, warm brown, cyan glow. Dark outline, classic 16-bit RPG sprite style, transparent background, consistent silhouette across all 4 frames.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABzUlEQVR4nO2bsW3DMBBFOUJqVuoFLcDKtat0AbSCF0iVBbRBKo/gUVImG6RMk1oBCZxxoignNHg8RfoHHGxIBt7nP/Is0bIxCAQCgUDcDuvsmJOl/QTfqvq/GMdXVw8G/jr899ClBH+j/t/Tgt375+gT/P/v/10CeteoTgDwm3ITwAe1GWvt+P32OGk98TGafSVnIfhO1f+sApy/xpBaEwD8sbj/hoym5ObHx3gBisDBN9r+Z61A+v4tPQHAd2r+5xegeQgJ/gb8H/p28d4zlQQvJQD8VtV/FKDf9wIIAv4qwn9OwgDwWzX/rwXgRfBXmSm45AQAv1XxPxTg8nwIGReD3vPzEhMA/MPEf3+FT5s+0v5PViAlBQngKdkBYn7qXE2+Uxi/Z3J+rEG8A3ABtOFQuwNwfu0O5HY2/uQK4LtNGisg3u6t3QHOiuOvzU8KoEJotWD+Y4cGf1Aef03+ooBFYRszYFjp+Gvxr0G3Gy8fT7Okc/5zUgLAd6r+zx5H4uBYAH8Ffxv+m+7U3dyF8uclBYDfqfofCsCToDxFwOCvwv+ZgFRKCgC/U/UfBTjtewGoCwC/0/E/97Hs0n9TAt+q+v9rUcQg4BtJ/38AyrUzwn08T5kAAAAASUVORK5CYII=",
+          "metadata": {
+            "model": "minimax/minimax-m3:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-03T19:48:52.803Z",
+            "attempts": 2,
+            "costUsd": 0,
+            "seed": 901462882
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 2
+      },
+      "criticAttempts": {
+        "char-1788464932803-verdant-frog-sage": [
+          {
+            "attempt": 1,
+            "verdict": null,
+            "reason": "",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788436088284",
       "startedAt": "2026-09-03T11:48:08.284Z",
       "status": "completed",
