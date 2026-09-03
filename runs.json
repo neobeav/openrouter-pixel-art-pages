@@ -1,6 +1,47 @@
 {
   "runs": [
     {
+      "id": "run-1788411130354",
+      "startedAt": "2026-09-03T04:52:10.354Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788411068662-topaz-beetle",
+          "name": "Topaz Beetle",
+          "prompt": "32x32 animated pixel art sprite of a topaz beetle knight, 4-frame walk/idle loop. Chitinous amber-gold shell with darker orange segmented plates, glowing yellow eyes, two curved black antennae, and small translucent wings folded on back. Wears a tiny bronze helmet with a chipped horn spike. Holds a miniature silver rapier in one foreleg, tip pointed down. Frame 1: standing idle, sword lowered, antennae upright. Frame 2: slight crouch, antennae tilt left. Frame 3: stepping forward with left foreleg, rapier raised at 45 degrees. Frame 4: returning to idle, wings flutter once (subtle 2-pixel offset). Palette: topaz yellow #FFB347, burnt orange #CC6633, bronze #8B6F3A, silver #C0C0C0, black #1A1A1A outlines. Pixel-art style, flat shading, no anti-aliasing, transparent background, suitable for top-down RPG.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABZklEQVR4nO2Zwa3CMBBEXceWwJUbJVAIV+60QCXuwgXQU5APlkJIHCeyd5zsPMni8JFmPTtZO3znCCGkCp/HdXg/bwPtPDEistjg2HwG4OTNTysXgFxIyMGZNnf8xHMCGCA1ObfQNZKGMADGmQYgHgnICYC+b4gl/fElMLdQtWjoJkzr99h86oteCNgAMR1AeAHUF5z/r/sle/7Hv7eugQEQBoATSPQnwNrTrzEF0G8hYlm/9DWwVRHUFx3/vfc/P/Ik8+O/e5EBSHVoavuJF1v0W/igsv+46fgZQpjdzJo4cgzW1vITL7aYj5iEVYXmAmBtAiRKA3CKCbAUAMtncAhh8/5r16G+/3HqtxaASn9PAagNNAB7lqsMAyAMACeA4CYA+iks1e/lEtgCVf25AKwVMff92iDMD4UXYqcAWv+vGHVR6nfjP7EOOoHUl7b+730FrHUuUV+g/hc1qKkA9bv2n7hj8wVIvDkKsN+lHgAAAABJRU5ErkJggg==",
+          "metadata": {
+            "model": "minimax/minimax-m3:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-03T04:51:08.662Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "seed": 487176270
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      },
+      "criticAttempts": {
+        "char-1788411068662-topaz-beetle": [
+          {
+            "attempt": 1,
+            "verdict": null,
+            "reason": "",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788410831832",
       "startedAt": "2026-09-03T04:47:11.832Z",
       "status": "completed",
