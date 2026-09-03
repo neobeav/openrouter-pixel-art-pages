@@ -1,6 +1,59 @@
 {
   "runs": [
     {
+      "id": "run-1788410831832",
+      "startedAt": "2026-09-03T04:47:11.832Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788410779462-amethyst-porcupine",
+          "name": "Amethyst Porcupine",
+          "prompt": "Design a 32x32 animated pixel art sprite of a fantasy porcupine character named 'Amethyst Porcupine'. The creature has a plump purple-violet body with a lighter lavender belly, beady black eyes with a white gleam, a small pink rounded snout, and short stubby legs. Its back is covered in tall, sharp quills colored in alternating bands of deep amethyst purple and shimmering crystalline white, as if the quills are made of gemstones. It holds a small glowing blue crystal staff in one paw as a walking stick. Add tiny golden magical sparkles floating around it. The 4-frame animation loop shows the porcupine walking cycle: frame 1 left foot forward with quills neutral, frame 2 both feet planted mid-step with quills slightly raised, frame 3 right foot forward with quills raised higher, frame 4 return to neutral stance with quills settling back down. Crystal staff bobs gently with each step. Palette: amethyst purple (#9966CC), lavender (#E6E6FA), deep violet (#4B0082), crystal white (#F0F8FF), pink (#FFB6C1), gold (#FFD700), glowing blue (#00BFFF). Use clean pixel art style with limited palette, no anti-aliasing, crisp edges suitable for a retro RPG game. The previous attempt failed pixel-art validation. Validator findings: isolated-pixel check failed (frame 0): foreground pixel with no adjacent foreground neighbour. Produce a sprite that passes those checks.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABz0lEQVR4nO2avW3DMBCFOUdG8CjhHhlEQ2iUtIZ69dnAtcogzQUMQIeyKYo/jzxLvAdcQcDw9+5HpGlIKZFIJIrW+DGTidi16GSyDV6+6S/21tx+u9aVaBUxMk2jL7X5Ya0GMmEbvLdO9bzHr61lh197B4Tmf6X/PsQOgIH7DNjGpg5AqoEtfsiPAop2+Mk7YOITCM0/ZwAeE7XRagC2+D4/NX9vjAHuYfLvfgByzsAzPQAF+b98AdwIFQDF10fM3zkqUth3A8b45e19VQC7btEAl+9bt+RrhgEozr90AAzMBT6uaxqA8AsH4OLwigfgKPWnz4lscGxBUH7GGUgbfJtHav6pA8Bafxdey0Doniv8ibX+TRoQuucKf2Kt/1MTYg2EosURIPwZVv+7EMUvMSD8mbX+T3/9hqKGAeEPrPWXBqhzPADWgyqR/aLb7Sc6iidQ+JD6Q3qAMNDrAI7M+WfXwL0vchhA8XMHYOk8/9V9kaMAaH6v+WvEOxNoA6lvvaAb0JKvmfNH8OEGYt96QfB9HlryNTB/95e/j+m7GSD4cAOp4t4CxxfJn4ufdCfdCuHni6vuEAMyAEPfA9D7ACrm/FXvkkKIRCKRSKR8+gVekQXmnmqEewAAAABJRU5ErkJggg==",
+          "metadata": {
+            "model": "minimax/minimax-m3:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-03T04:46:19.462Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "seed": 1235631874
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      },
+      "criticAttempts": {
+        "char-1788410779462-amethyst-porcupine": [
+          {
+            "attempt": 1,
+            "verdict": null,
+            "reason": "isolated-pixel check failed (frame 0): foreground pixel with no adjacent foreground neighbour; isolated-pixel check failed (frame 2): foreground pixel with no adjacent foreground neighbour",
+            "status": "validator"
+          },
+          {
+            "attempt": 2,
+            "verdict": null,
+            "reason": "isolated-pixel check failed (frame 0): foreground pixel with no adjacent foreground neighbour",
+            "status": "validator"
+          },
+          {
+            "attempt": 3,
+            "verdict": null,
+            "reason": "",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788407381380",
       "startedAt": "2026-09-03T03:49:41.380Z",
       "status": "completed",
