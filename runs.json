@@ -1,6 +1,47 @@
 {
   "runs": [
     {
+      "id": "run-1788436088284",
+      "startedAt": "2026-09-03T11:48:08.284Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788436052865-obsidian-scorpion",
+          "name": "Obsidian Scorpion",
+          "prompt": "A 32x32 animated pixel art sprite of an armored obsidian-black scorpion with glowing violet runes etched across its chitin shell. It has a curved segmented tail tipped with a glowing magenta stinger, two large pincers with silver edges, and eight legs. Eight glowing cyan eyes sit atop its head. The sprite is shown in 4-frame walk cycle animation loop: Frame 1 - all legs on left side raised slightly, tail curled back, pincers open forward; Frame 2 - mid-step with legs alternating positions, tail swaying right, pincers slightly closed; Frame 3 - all legs on right side raised, tail curled back, pincers open; Frame 4 - mid-step opposite of frame 2, tail swaying left, pincers closing. Dark purple shadow underneath. Colors: black (#1a1a2e), dark gray (#3a3a4e), silver (#c0c0d0), cyan glow (#00ffff), violet runes (#a020f0), magenta stinger (#ff00ff). Retro 16-bit RPG style, clear silhouette, smooth frame transitions.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABsElEQVR4nO1Yy40CMQydM5e9+wBbAQWkCAqggD1Sw5aypVDClrIdBBkUMTtk8nFsZiDvSRYaIvLsl5d4wjAAAAA0wQ/eQ8KO4b9ggK53PxsAp0CnINpj8XsGDNA52AAcS+cBLLj4MECngAE6BwzQ6WKXBPjfS/9rAnzl/75d+W8kkU8etzIA+L2+/ufzb5FzeIwnD7HZbB9iPJ6aJwRz1xhAg1+qASnyS3aqWf01BggkMXJ2XxjPzSM1gAa/VANS5JcawKT+afFziYUESmLu99OQGEDK36oBKfC39GrL+qPJxb6vSSA1T23hGvxSDUiRX6KBef0599cQp5woPQG0+KUakCK/5AQwr3+u/zl38BypBH4+/66RSiDMExOh1QAl/K3vAKRU/1gHLQOo1J97ARonMCXMPefeBWoNoMFfqwEZ8EsNYFW/OIGcIzUSAP9+Of1zLaCkB42P/1YDmPTADDTqn7bBV6r/XwLH46korBYA/Ken61/9H7T0uveu/K5h96+hfgC4XwlLnNza89YKBw3i2H24RRca/M6rCfnsAP969BcDO9B1fQICAAAAw6viAlJ2bkSjZS05AAAAAElFTkSuQmCC",
+          "metadata": {
+            "model": "minimax/minimax-m3:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-03T11:47:32.865Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "seed": 1336101234
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      },
+      "criticAttempts": {
+        "char-1788436052865-obsidian-scorpion": [
+          {
+            "attempt": 1,
+            "verdict": null,
+            "reason": "",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788414828638",
       "startedAt": "2026-09-03T05:53:48.638Z",
       "status": "completed",
