@@ -1,6 +1,47 @@
 {
   "runs": [
     {
+      "id": "run-1788414828638",
+      "startedAt": "2026-09-03T05:53:48.638Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788414767521-sapphire-beetle-knight",
+          "name": "Sapphire Beetle Knight",
+          "prompt": "A small armored beetle knight standing upright on its hind legs, with a glossy deep blue sapphire-colored carapace shell, a silver knight's helmet with a tiny plume, holding a miniature lance in one claw and a round shield with a blue gem emblem in the other. Eyes glow soft cyan. 4-frame animation: frame 1 standing idle with lance at rest, frame 2 raising shield slightly and tilting helmet up, frame 3 thrusting lance forward with a small blue sparkle, frame 4 returning to idle stance with a brief shimmer along the carapace. 32x32 pixel art, animated sprite, retro game style, limited palette of sapphire blue, silver, cyan, and black outlines.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAACZElEQVR4nO2YMVbEIBCGU3uEHGELD7AVtUewsrbwIB7BE1habpnS0nJLyi23sMc3KO/NIoQMDBASeG+eT5bwzf9nQgjDkNjU15NKnaO3RhvcfBM1+TXY0PbOr57AWvhqTw+AvFzVXJTK4/qtFEQNNubDDajJL66/dgFMn+eqfLlz/aswwGcC9Ofmy53rX40B2Aj8f26+3Ll+bcA4js6gGPB2VlHJgkgfn2JALF/uXD+LAQA3QeXDxsfHh99y8+XO9f9bguygwGMSqM2Xia+ApvU/vJ7VeHy5mcAVvk8WE7EJpPJdJgwb14+5qfp1AnfjvQ4fHMaEDDBJkOAMfNwHY68Ll8yW9bsKIIoPlQdhEvDF6aL0OHzt8TAq/DemcfBDfVvUD0wy136vCCH0pBAACAWMg2tMxBqA5+Dg47YkF8HMr6GfXAC+zcVSuIkcBqTyUwvg1KB+1gIo9QTYO+vSK8BUeQXk1E8qgNAnRgkDQPDzx28Y0frbu1ABTJUfAG797CtAKAkzJsUAuP7w+K7DNiCFz1EAY2P6SQVgnyvbZ844CZyMq18vW38nVEsNwAxsgMuEGH6oAKYFK2Br+skrgKsIfPC5gLmoBtgmhMRT+aECgEa5+S3ojyoAVwLm99B3KJ6L0wAOfkoBDI3qjzoHmDvfpiRgWuoumIsf6jNt7ny9Nf1RBTDXShiQix/q26L+XgC9ABTbCoB3tr6AMa4q9N2IkvxQ3xb1s64AsQZwtc4XVf2/OZum/Nb52/C/egKdL3oB9AIU61oB4L1TKoHOF3X8D2085qLz2/c/mFx2SOcPufz/AR1JMW58L+dOAAAAAElFTkSuQmCC",
+          "metadata": {
+            "model": "minimax/minimax-m3:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-03T05:52:47.521Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "seed": 1774358158
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      },
+      "criticAttempts": {
+        "char-1788414767521-sapphire-beetle-knight": [
+          {
+            "attempt": 1,
+            "verdict": null,
+            "reason": "",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788411586503",
       "startedAt": "2026-09-03T04:59:46.503Z",
       "status": "completed",
