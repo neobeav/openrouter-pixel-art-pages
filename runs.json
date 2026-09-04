@@ -1,6 +1,47 @@
 {
   "runs": [
     {
+      "id": "run-1788522528954",
+      "startedAt": "2026-09-04T11:48:48.954Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788522496268-cobalt-magmaw",
+          "name": "Cobalt Magmaw",
+          "prompt": "A small magma elemental creature shaped like a chubby lizard with a cracked obsidian shell on its back, glowing cobalt-blue magma seeping through the cracks. It has a rounded head with two bright white-hot eyes, a wide grin showing orange embers, and short stubby limbs with darker basalt-colored claws. A tiny glowing blue flame flickers on the tip of its short tail. The obsidian shell plates have rune-like glowing seams. The body base color is dark charcoal gray, with cobalt-blue (color #0047AB) as the primary glow color, accented by white-hot cores (#FFFFFF) and deep navy shadows. 4-frame idle animation loop: Frame 1 - neutral stance, flames at low intensity; Frame 2 - slight body squish downward, eyes narrow, flames flare brighter; Frame 3 - neutral stance returning, flames pulse outward; Frame 4 - body rises slightly, eyes widen, flames shrink to small embers. Loop seamlessly. 32x32 pixel art, animated sprite sheet, dark background, chunky pixels, retro RPG style.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAACAUlEQVR4nO2bTU7DMBCFs6xmibyycgA0Cw6QCyCxZ9NL9CKcBC7AUbhN0RRNcF2b2EmDPfYgPaU/Ccqb973UjWAAMGeV6XYGQ+kTUBkFQCEwegVQCIx+BCgERtcACoHRRaBCYPRbgEJg5HwNnKYXDQw6A4BCj6m0qf/WJNhzFgD+Dwd+/Lx5S/RQoKMCbAKAgmfF4Cht8J5qsQC7AUCvSRkCdFyAXQEg9QrAUUgBkgEgM4jTleklSWkBdFyAJAAoeFez6TfsJvyp0QJkA0ChX+n9dX4sfUUMHRYgGYDD4eGiGwAc8T7WPl301wCG5w+RAJwbK8CqjwASBUymOeyYYuFTS6RAgA0XIHkROI6Pc/CpomNIvnFJiyRovABZVwAKk06athwgPXfD5vdZfCwbt6evWTUMADovwCIALvWhgJeeu8e7ENBWCgDYcAGG3Eufa45ERvzXQuG7g+BBSQof71AAUm0FyAYgBEFq+P7x0gDAOxTABaGGGawCAOyPARaTP1Nt48b9q0Htwh0KUNMMogCwieil3P6KQ2f5wwr9ntLGUzTGzj2zADXPIGkRGGuCOxApxK8RbihA7TNIvg9ANzhcE3zTIyR/v9Im94IAMwpQ+vw3AxAytRR+7eYhQ60WIPtOIG/94aTsJ1nYaAGy/yg01VDtxnM1NloA/e9g6LsA37mSt+fLGkAjAAAAAElFTkSuQmCC",
+          "metadata": {
+            "model": "minimax/minimax-m3:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-04T11:48:16.268Z",
+            "attempts": 2,
+            "costUsd": 0,
+            "seed": 776089966
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 2
+      },
+      "criticAttempts": {
+        "char-1788522496268-cobalt-magmaw": [
+          {
+            "attempt": 1,
+            "verdict": null,
+            "reason": "",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788465006331",
       "startedAt": "2026-09-03T19:50:06.331Z",
       "status": "completed",
