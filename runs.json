@@ -1,6 +1,47 @@
 {
   "runs": [
     {
+      "id": "run-1788590235080",
+      "startedAt": "2026-09-05T06:37:15.080Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788589853796-solar-tortoise",
+          "name": "Solar Tortoise",
+          "prompt": "A 32x32 animated pixel art sprite of an ornate tortoise with a glowing golden hexagonal-patterned shell. The tortoise has green scaly limbs, a small determined face with bright amber eyes, and a tiny flame flickering atop its shell. Color palette: warm gold (#F4C430), deep amber (#FF8C00), emerald green (#2E8B57), cream highlights (#FFF8DC), dark outline (#3B2F2F). The 4-frame animation loop shows the tortoise walking steadily forward: frame 1 - front left and back right legs extended in mid-stride, flame leaning slightly right; frame 2 - legs gathered beneath body as weight transfers, flame upright; frame 3 - front right and back left legs extended, flame leaning slightly left; frame 4 - legs gathered again with subtle bounce, flame bright and tall. The shell emits a soft golden glow that pulses subtly across frames. Pixel art style with limited palette, clean readable silhouette, suitable for a top-down RPG. No background.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABZklEQVR4nO2ZMY6DMBAA9xF094eQPso7rksZ6d7CPes+EYmCR1yRzic4GVkOwQY7rBxmpBUFOLNeNtgJIgAAAAAASzH31lC1HUMD7BztBjC3M34NTHc1Q9zb/2N3NSr+2xl/t339uQHdThrwVNcmJfCXXf+R4VHvrPdjB37LJt8A/K1q/eX352jcGBNwwr8G/5vUv/mqjI3+g/vjVAL2fO4k8Feq9Z+8ATas2D2/RQPgr15ff7/YayIlCfxH1fo/rDtTcWg+g9fgL7P+Dwn4nWV35qEk1u5Qc/m15y+F+mcT6KV+bNkAS/za85dC/cEOtH82aD0BYv3a85dC/cE1KNR5uRtgrV97/lKoP2oTEhP4y6z/kMDH5TR0mT3GdJw/JtXfP+bsMdbvjsnlP0Sst3NjSpu/PNts9DH329O/NsXvvtiI9ed6IdI4n7Vk/s/GlDb/5DdRqQngr1XrDwAAAAAAAPJu/AHCDCD3G0hp0QAAAABJRU5ErkJggg==",
+          "metadata": {
+            "model": "minimax/minimax-m3:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-05T06:30:53.796Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "seed": 278737911
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      },
+      "criticAttempts": {
+        "char-1788589853796-solar-tortoise": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The golden shell is the most legible visual element, with the flame and eyes providing clear subject cues. Subject parts dominate the sprite, so identity is clear without relying on the prompt.",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788522528954",
       "startedAt": "2026-09-04T11:48:48.954Z",
       "status": "completed",
