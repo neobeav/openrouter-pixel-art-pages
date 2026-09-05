@@ -1,6 +1,47 @@
 {
   "runs": [
     {
+      "id": "run-1788637706849",
+      "startedAt": "2026-09-05T19:48:26.849Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788637657313-mossy-stag-sentinel",
+          "name": "Mossy Stag Sentinel",
+          "prompt": "A majestic stag made of living moss and bark, 32x32 animated pixel art sprite, 4 frames in idle/breathing animation loop. The stag has a dark brown bark-textured body with patches of vibrant green moss covering its shoulders, back, and legs, small white mushrooms growing from its antlers, glowing pale green eyes, and faint bioluminescent spores drifting around it. Each frame shows subtle breathing motion: frame 1 chest low antlers still, frame 2 chest rises slightly with faint spore puff, frame 3 chest at peak with antlers tilted up and spores spreading, frame 4 chest settles back to frame 1 position. Forest guardian aesthetic, earthy greens and browns with soft cyan-green glow accents, pixel art style with limited palette, transparent background, top-down RPG game sprite perspective.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAACiElEQVR4nO2avU7EMAzH+wiMFSO6CZ1uuinSbTwBc6Xu8AY8CiwdeQRGHoGR8cYbWZiLUsnI5yap0zjp9RJLVq8lzc9/O3U/RFU5TG3qHvz39/T/29erQKN8TrwS3Cp3Pkx0/P4cAuAuAjo+NA7ufCZ+KDtrPp2Qe8XT8aExcOcz8UPZKmP9o5ayxC3AZ74UbJWR/sUTgM/3TQA9P4SvctH/djr2WSeAWFb6dfHBLyUBLnEvj/seOzdJc5kqB/3cDtD9fA0LhR5LlQDg4wRQvjRTZajfmgDcLUz7pgToAEWCIt2qUXdnfNs5c/gqc/3OFkjF2sTDigWvBAxE662eH+/bxM/hq8z1W82n1WG4VBCp+EroGWBV+jmDAXh/ezP41H3HR/wl8dVEYSlfogMsrZ8VgG414NCCbO0Hz6u3rvtUCv6UdZnzvVYgpwVh4z6sxOJzrMuc7x3A08erVwASHeCaC9AtvQBMdnje9dhx8cH1vn4fpWNj8qkX/j5K/kcFgI8PeAHAsRQLAH8Aad8fzvYLfxd3AeiEY9fFp8diLgDKMnnh79ItgKkCSARB56PxuP4urf8wkYMU/KT68SsHp/jgerxEEJjvEkodnyfJb5kXQCx+av2jILjFF4MTPnUqlrokv/W8AK5F/+i1wyUcj5MKYO4n2Bj8llH8q9CvH+70Fr422ZwW3RUAzOljU/zYC6Ax8FNeAIvox693pnuPDWi6D5nm9E2ABH+uNRN8XPQl+NH04w7gesBwPaRIdQAp/hxrMucP95+5AUh8niz8etH8GwvAbUGxFkDh18nyH/xPEYW/4vxvN3UP7gveEi/89eX/LIBQL/z15Z8dZLTJC//i81+sWrf9ARz53mKt/XjjAAAAAElFTkSuQmCC",
+          "metadata": {
+            "model": "minimax/minimax-m3:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-05T19:47:37.313Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "seed": 1325319845
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      },
+      "criticAttempts": {
+        "char-1788637657313-mossy-stag-sentinel": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The moss and bark are the most legible visual elements, clearly identifying the stag. Mushrooms add detail but are subordinate. Subject identity is carried by the subject's own body parts.",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788590235080",
       "startedAt": "2026-09-05T06:37:15.080Z",
       "status": "completed",
