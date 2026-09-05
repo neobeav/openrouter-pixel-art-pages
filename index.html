@@ -15,7 +15,53 @@
   .stat-label { font-size: 0.8rem; color: #8b949e; }
   .runs { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
   .run-card { background: #161b22; border-radius: 8px; overflow: hidden; border: 1px solid #30363d; }
-  .run-card img { width: 100%; height: 200px; object-fit: contain; image-rendering: pixelated; background: #0d1117; padding: 1rem; }
+
+  /* Sprite frame: a div the size of one 32x32 cell, with the full sprite
+     sheet as background. For animated characters we walk the sheet in
+     steps(frameCount) so it snaps from column to column like the source.
+     Frame geometry (frameCount, frameWidth) is read from the run record,
+     not hardcoded, so a future change to FRAME_COUNT in
+     src/generator/index.ts does not silently desync the display. */
+  .sprite {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #0d1117;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    /* background-size is set per-instance below; the default is the sheet's
+       intrinsic size, anchored to the top-left, so a still (non-animated)
+       character is shown at its natural 32x32 -- accepting imageRendering:
+       pixelated from the body's CSS. */
+    image-rendering: pixelated;
+  }
+  .sprite.is-animated {
+    /* background-size: (frameCount * 100%) auto makes the sheet render at
+       frameCount times the cell's width, so each "step" of background-
+       position is one frame width. background-position: 100% (frameCount-1)
+       walks from the first frame to the last. The math is independent of
+       the cell's rendered size, so a card resize does not break the loop. */
+    background-size: calc(var(--sprite-frames, 1) * 100%) auto;
+    animation: sprite-play 600ms steps(var(--sprite-frames, 1)) infinite;
+  }
+  @keyframes sprite-play {
+    from { background-position: 0 0; }
+    to   { background-position: calc((var(--sprite-frames, 1) - 1) * 100% / var(--sprite-frames, 1)) 0; }
+  }
+  /* Reduced-motion users get the still sheet, not a frozen mid-step. */
+  @media (prefers-reduced-motion: reduce) {
+    .sprite.is-animated { animation: none; }
+  }
+
+  /* Static-sheet view: the full sheet shown beneath the animated sprite, so
+     a reviewer can read all frames at once without scrubbing. */
+  .sprite-sheet {
+    width: 100%;
+    height: auto;
+    image-rendering: pixelated;
+    background: #0d1117;
+    display: block;
+  }
+
   .run-info { padding: 0.75rem 1rem; }
   .run-title { font-weight: bold; color: #58a6ff; margin-bottom: 0.25rem; }
   .run-meta { font-size: 0.8rem; color: #8b949e; }
@@ -50,6 +96,36 @@
     .then(data => render(data))
     .catch(() => render({ runs: [] }));
 
+  // Build a sprite <div> for one character. The character record carries
+  // the sprite sheet as a base64 PNG; the sheet is frameCount columns wide
+  // with each cell frameWidth px. Animated characters walk the sheet in
+  // steps(frameCount). Still or unrecognised records degrade to a plain
+  // <img> with no animation -- no guessing at fields the record omits.
+  function renderSprite(character) {
+    const frameCount = Number.isFinite(character.frameCount) ? character.frameCount : 1;
+    const frameWidth = Number.isFinite(character.frameWidth) ? character.frameWidth : 32;
+    const animated = !!character.isAnimated && frameCount > 1;
+    const src = 'data:image/png;base64,' + character.imageData;
+
+    const sprite = document.createElement('div');
+    sprite.className = 'sprite' + (animated ? ' is-animated' : '');
+    sprite.style.backgroundImage = 'url("' + src + '")';
+    if (animated) {
+      // Steps and percentage math drive off --sprite-frames so a future
+      // change to FRAME_COUNT in src/generator/index.ts does not silently
+      // desync the display.
+      sprite.style.setProperty('--sprite-frames', String(frameCount));
+    } else {
+      // Non-animated character: show the sheet at its natural aspect ratio
+      // (sheet is frameCount columns of frameWidth, so width:height =
+      // frameCount:1). Width 100% of the card, height auto.
+      sprite.style.width = '100%';
+      sprite.style.height = 'auto';
+      sprite.style.aspectRatio = frameCount + ' / 1';
+    }
+    return sprite;
+  }
+
   function render(data) {
     const runs = data.runs || [];
     if (runs.length === 0) return;
@@ -69,34 +145,57 @@
       const card = document.createElement('div');
       card.className = 'run-card';
 
-      let imgs = '';
       if (run.characters && run.characters.length > 0) {
-        imgs = '<img src="data:image/png;base64,' + run.characters[0].imageData + '" alt="' + run.characters[0].name + '">';
+        const sprite = renderSprite(run.characters[0]);
+        card.appendChild(sprite);
+
+        // The static sheet stays reachable as an asset: a still <img>
+        // beneath the sprite shows the full sheet without any animation.
+        const sheet = document.createElement('img');
+        sheet.className = 'sprite-sheet';
+        sheet.src = 'data:image/png;base64,' + run.characters[0].imageData;
+        sheet.alt = (run.characters[0].name || 'character') + ' \u2014 full sprite sheet';
+        card.appendChild(sheet);
       } else {
-        imgs = '<div style="width:100%;height:200px;display:flex;align-items:center;justify-content:center;color:#8b949e">no characters</div>';
+        const empty = document.createElement('div');
+        empty.style.cssText = 'width:100%;height:200px;display:flex;align-items:center;justify-content:center;color:#8b949e';
+        empty.textContent = 'no characters';
+        card.appendChild(empty);
       }
 
-      card.innerHTML = imgs;
-      card.innerHTML += '<div class="run-info">';
-      card.innerHTML += '<div class="run-title">' + (run.id || 'run') + '</div>';
-      card.innerHTML += '<div class="run-meta">'
-        + (run.characters ? run.characters.length : 0) + ' chars '
-        + '&middot; started ' + (run.startedAt || 'unknown')
-        + '</div>';
+      const info = document.createElement('div');
+      info.className = 'run-info';
+
+      const title = document.createElement('div');
+      title.className = 'run-title';
+      title.textContent = run.id || 'run';
+      info.appendChild(title);
+
+      const meta = document.createElement('div');
+      meta.className = 'run-meta';
+      meta.textContent = (run.characters ? run.characters.length : 0) + ' chars '
+        + '\u00B7 started ' + (run.startedAt || 'unknown');
+      info.appendChild(meta);
+
       if (run.characters && run.characters.length > 1) {
-        card.innerHTML += '<div class="char-grid">';
+        const grid = document.createElement('div');
+        grid.className = 'char-grid';
         for (let i = 1; i < Math.min(run.characters.length, 9); i++) {
-          card.innerHTML += '<img class="char-thumb" src="data:image/png;base64,' + run.characters[i].imageData + '" title="' + run.characters[i].name + '">';
+          const thumb = document.createElement('img');
+          thumb.className = 'char-thumb';
+          thumb.src = 'data:image/png;base64,' + run.characters[i].imageData;
+          thumb.title = run.characters[i].name;
+          grid.appendChild(thumb);
         }
-        card.innerHTML += '</div>';
+        info.appendChild(grid);
       }
-      card.innerHTML += '</div>';
 
+      card.appendChild(info);
       container.appendChild(card);
     });
 
     document.getElementById('totalRuns').textContent = runs.length;
-    document.getElementById('meanAttempts').textContent = runs.length > 0 ? (totalAttempts / runs.length).toFixed(1) : '–';
+    document.getElementById('meanAttempts').textContent = runs.length > 0 ? (totalAttempts / runs.length).toFixed(1) : '\u2013';
     document.getElementById('agentMode').textContent = agentMode;
     document.getElementById('scriptMode').textContent = scriptMode;
     document.getElementById('totalCost').textContent = '$' + totalCost.toFixed(2);
