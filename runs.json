@@ -1,6 +1,47 @@
 {
   "runs": [
     {
+      "id": "run-1788695290854",
+      "startedAt": "2026-09-06T11:48:10.854Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788695266121-sable-owl",
+          "name": "Sable Owl",
+          "prompt": "A 32x32 pixel art sprite of a sleek black owl with glowing amber eyes, perched on a thin branch, featuring a tiny silver pendant around its neck. Four-frame animation loop: Frame 1 – owl facing forward, wings slightly tucked, eyes open; Frame 2 – head turned left, eyes blinking, wings unchanged; Frame 3 – wings half-open as if preparing to flap, body slightly lowered; Frame 4 – wings fully extended mid-flap, then loops back to Frame 1. Include subtle pixel shading, a hint of moonlit silver on feather tips, and the pendant catching a glint of light each frame.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA2UlEQVR4nO2W0Q2DMAwFvQNbZA+mY6hmlGziCvWnFWlrRLAFvpP8A1KeYy6ACAAAAAAAAADAFt1ZoyFfQufPA5DcByC8AfIFARBQ/A/gx8L6eJX1OvmXn394A+SL4/xba9qrvd/gH+scEiDgX0BT5SNAcgEGBI5uyDWv8QZEgJb8E5j6DSDsHwEk9wHoL1RK2VStVVd690Y11Fvbkv/WB/s/U4C1IgX4lu8lQL3f/u0NWOqC+WoV4E/u6QJ4zD+8AQQosQIAAADAPVnmSakp7QwQYE4uAABIXp4PYmUut/SkUwAAAABJRU5ErkJggg==",
+          "metadata": {
+            "model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-06T11:47:46.120Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "seed": 2132281848
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      },
+      "criticAttempts": {
+        "char-1788695266121-sable-owl": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The black body and amber eyes are the most legible subject features, establishing the owl identity. The pendant and branch are secondary props that do not outweigh the subject.",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788637706849",
       "startedAt": "2026-09-05T19:48:26.849Z",
       "status": "completed",
