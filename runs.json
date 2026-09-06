@@ -1,6 +1,48 @@
 {
   "runs": [
     {
+      "id": "run-1788708940426",
+      "startedAt": "2026-09-06T15:35:40.426Z",
+      "completedAt": "2026-09-06T15:35:40.426Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788708911991-emerald-salamander",
+          "name": "Emerald Salamander",
+          "prompt": "A 32x32 pixel art sprite of an emerald-green salamander with bright yellow spots, slender body, tiny claws, and a small leaf-shaped pendant around its neck. Four-frame animation loop: frame 1 - salamander standing still, head slightly raised; frame 2 - slight forward lean with left front leg lifted; frame 3 - body arches backward, tail flicks upward; frame 4 - returns to neutral pose with a subtle blink of its black eyes. Transparent background.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAu0lEQVR4nO3VMQ6DMBBEUU48R5qD0mykSG5SYVjJJvOLXyExhjyFo6wixXasPgAJACQAkABAAgAJACQAkABA2huAyt9mr3W1er8W1/H8AHD2Pp8AvxdARwBwdi0AhvZV6tn37X3+AZwdAJwdAJwdAJzdPACd9+o6NPvVuQ8AZ+9fB6DRgwOMe2z0Ampq+8E7+L3HJs8PAAMAAAYAAAwAABgAe/8A7BcA2C8AsF/rAFD9UwBwdgBwdgBwdh8O42LUm0kJiQAAAABJRU5ErkJggg==",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-06T15:35:11.991Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 1599534534
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1788708911991-emerald-salamander": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The bright yellow spots and leaf pendant are the most legible visual elements, clearly identifying the salamander. Subject parts dominate the sprite, making the identity unmistakable.",
+            "status": "pass"
+          }
+        ]
+      }
+    },
+    {
       "id": "run-1788695290854",
       "startedAt": "2026-09-06T11:48:10.854Z",
       "status": "completed",
