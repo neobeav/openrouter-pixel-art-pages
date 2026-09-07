@@ -1,6 +1,49 @@
 {
   "runs": [
     {
+      "id": "run-1788761159896",
+      "startedAt": "2026-09-07T06:05:59.896Z",
+      "completedAt": "2026-09-07T06:05:59.896Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788761127813-glacial-fox",
+          "name": "Glacial Fox",
+          "prompt": "A 32x32 pixel art sprite of a frosty blue-white fox with icy crystal tail, glowing cyan eyes, and a small snowflake amulet around its neck. Four-frame animation loop: Frame 1 - fox standing still, tail slightly curled; Frame 2 - fox taking a small step forward with left paw, tail swaying; Frame 3 - fox mid-step, right paw forward, tail arched, snowflake amulet glinting; Frame 4 - fox completing step, both paws together, tail relaxed, ready to loop back to frame 1.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAzklEQVR4nO3VvQ3CMABE4QzFCkzAAu4zwA3g8a5lCaYIUqQ0FPwkRjbcK14VKeeET2SarYUU29T7ACQAkABAAgAJACQAkABAGhPAci1rn15rVe/9uXOtnx8Azt7nE+DfAtA6ADi73QA27b3Us1+a7PMP4OwA4OwA4OwA4OzeAnA51V21OiT79Wv7AHD2/lMAt3NZO3KA7R6jvoD5RUfeweM9Rnx+ABgAADAAAGAAAMAAGO4HYF8AYL8CgP3aDwDpbwOAswOAswOAswOAs7sDOTN1T71Pso0AAAAASUVORK5CYII=",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-07T06:05:27.813Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 1367507852
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1788761127813-glacial-fox": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The tail and eyes are the most legible subject features; the amulet is a minor prop. Subject identity is clearly carried by the fox's own parts.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1788739547703",
       "startedAt": "2026-09-07T00:05:47.703Z",
       "completedAt": "2026-09-07T00:05:47.703Z",
