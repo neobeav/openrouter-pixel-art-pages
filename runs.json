@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1788782756909",
+      "startedAt": "2026-09-07T12:05:56.909Z",
+      "completedAt": "2026-09-07T12:05:56.909Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788782722434-solar-flare-phoenix",
+          "name": "Solar Flare Phoenix",
+          "prompt": "A 32x32 pixel art sprite of a fiery phoenix with bright orange and yellow plumage, trailing embers, wings slightly spread. Frame 1: phoenix facing forward, wings half-open, head tilted up. Frame 2: wings fully extended, body slightly lifted, ember particles flickering. Frame 3: wings beginning to fold, head lowered, ember trail fading. Frame 4: wings closed, phoenix perched, small flare at tail, looping back to frame 1.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA5ElEQVR4nO3VsQ3CMBSE4UyRnh2o6ZggC7CLy7fBbZgpjIQUCSGQSLBx4vuLq1LcO+ULDFmRSdhmaH0ACQCQAAAJAJDYN4DxdFmV1uNIAKBkxg73A0De+zcBmK+3R96Nfn5W6+ilY+2zXgDMBfcDQN77+QvQ8QCUDADkvf8nAIv2T19E7eNf+/8NYO5gP78A8t4PAHnvB4C89wNA3vu/BjCd06aUOpT+VKUfAPLuB4Dq3rD3/QAQAA7xAlr3ZwAAYOpwPwAEgEO8APoTAOhPAKA/tQFAossAQN4BgLwDAHkHAPLOHcUiCvF6yoa9AAAAAElFTkSuQmCC",
+          "gifData": "R0lGODlhIAAgAIIAABoaLulFYBYhPg80YFM0g/+ai//UYGvLdyH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADUVi63P4wykmrvThrwbvnmvKNQliQn8kFwceW4dp6r4p29g1vHfviMd0uIxxiirlbiMBsOp2ap7QZnUqrVmgm+8RyCV5uODu2lqemtHrNbrsfCQAh+QQJDwAAACwAAAAAIAAgAAADO1i63P4wykmrvTjrzbvHQdCEH8mYX6peIbq+cCxDRG3ft4bvts7vvl8uI8QFi4RjUSlk/py8mXRKrS4SACH5BAkPAAAALAAAAAAgACAAAANOWLrc/jDKSau9OOtdhf+gx4WkMJbgGQTham6eC7onKsLfKt+a/dU2IEpY2hCOyGRSo2wijU4lNPpkUquZKxajPVq7X234yimbz+i0+pEAACH5BAkPAAAALAAAAAAgACAAAAM7WLrc/jDKSau9OOvNu8dB0IQfyZhfql4hur5wLENEbd+3hu+2zu++Xy4jxAWLhGNRKWT+nLyZdEqtLhIAOw==",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-07T12:05:22.434Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 299911795
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1788782722434-solar-flare-phoenix": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The orange‑yellow plumage is the most legible element, clearly signalling a phoenix; wings and ember trail provide supporting details. Subject identity is carried by the subject itself, not a prop, and the sprite is readily recognizable.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1788782747195",
       "startedAt": "2026-09-07T12:05:47.195Z",
       "status": "completed",
