@@ -1,6 +1,49 @@
 {
   "runs": [
     {
+      "id": "run-1788782747195",
+      "startedAt": "2026-09-07T12:05:47.195Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788782710696-solar-flare-phoenix",
+          "name": "Solar Flare Phoenix",
+          "prompt": "A 32x32 pixel art sprite of a fiery phoenix with bright orange and yellow plumage, trailing embers, depicted in four animation frames showing the wingbeat cycle: frame 1 wings down, body slightly forward; frame 2 wings mid-up, head tilted; frame 3 wings fully up, tail flickering; frame 4 wings descending, preparing for the next downstroke, with a subtle glow aura around the body.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABPklEQVR4nO2WSW4CMRBF63JRDsJ1uAbHYc1dsvnISRMxuN02VJd7eE8qiY15NWFjBgAAAAAAAADQgE6mng3Db336r8TJHgL/BvuvY/6LH+T6i5pzbnlN+OdGW/an4Y3Fi/w5Cufc8iv4PT279JeGP7kEFee8iGq+am7AjD/0Bowc/n+8sQAeTdHPWb8x4wKoVEPBH7H8s9dfNfxbEl+DPH2OHH7OPwT1OzA5/NT455hYApe87gef83+4AGq5Ae/dDeeWXH9eenvzS/JMEu5vfqP/bc+xcfgNS7CG+hebQKRfrcOvWII11e+agA7fSrFWvz68Addef718JAmPBPCf4/o/diDsDcavnv1nAId9/wDySV1MLYF/W/3vngB+YwFYQOMG4AayBT0Bw5+Vbk8AfkX1nwFc9r2AAAAAYJviCu9WCg8+jemmAAAAAElFTkSuQmCC",
+          "gifData": "R0lGODlhIAAgAIMAAAAAACIiIv9FAP+lAP//AP////+MAP/XAP9jR//6zQAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAAEfhDISau9OOvNu/9gKI5kaZLDaRVDm5JG5RLEFHdGrsduv+ea3w7QGwiBl+OuqLxZmomEYJBoBoVSgVZQFXpi0a04CnCCwmItmYROrwEIxKed5iYkcU1+Qt++OXsSfWp3IweHiImHJIqNB4yOiZCRi4aJcYqTh5iSKp6foKEXEQAh+QQJDwAAACwAAAAAIAAgAAAEZBDISau9OOvNu/9gKI5kaZLDaRVDm6qSSxAw4N71/Z5Joqu9nmAQ5CUESGTPJEwml6SmUwAdSZ1VBOJznUK1GvCkq0x8xBIy1Tw6uN9wNylOP8zr8Dte3oZr43puf3k1hYaHhREAIfkECQ8AAAAsAAAAACAAIAAABHgQyEmrvTjrzbv/YCiOZGmSw2kVQ5uqkksQMODepFHdL6B3hqDQkEjwhkINclgUDBLL5CU6FFipUgvWysUql9xw1KNrhq1FHwCB+JjP6ISEraFP3uG0xy7Bc/UiB4KDhIIkhYgHh4mEi4yGI4VshY6Ck401mZqbmREAIfkECQ8AAAAsAAAAACAAIAAABGQQyEmrvTjrzbv/YCiOZGmSw2kVQ5uqkksQMODe9f2eSaKrvZ5gEOQlBEhkzyRMJpekplMAHUmdVQTic51CtRrwpKtMfMQSMtU8OrjfcDcpTj/M6/A7Xt6Ga+N6bn95NYWGh4URADs=",
+          "metadata": {
+            "model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-07T12:05:10.696Z",
+            "attempts": 2,
+            "costUsd": 0,
+            "seed": 82540345
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 2
+      },
+      "criticAttempts": {
+        "char-1788782710696-solar-flare-phoenix": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The bright plumage and wing positions are the most legible visual cues, clearly identifying the phoenix. The glow aura supports but does not overshadow subject identity, allowing clear recognition.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "watcher"
+    },
+    {
       "id": "run-1788781776813",
       "startedAt": "2026-09-07T11:49:36.813Z",
       "status": "completed",
