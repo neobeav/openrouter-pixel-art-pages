@@ -1,6 +1,48 @@
 {
   "runs": [
     {
+      "id": "run-1788781776813",
+      "startedAt": "2026-09-07T11:49:36.813Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788781748234-crimson-salamander",
+          "name": "Crimson Salamander",
+          "prompt": "A 32x32 pixel art sprite of a crimson salamander with glowing amber eyes, a flame pattern on its back, and a tiny ember staff. Four-frame animation loop: frame 1 shows the salamander standing still with staff at its side; frame 2 shows a slight lift of the left leg and the staff beginning to swing forward; frame 3 shows the right leg lifted and the staff raised high; frame 4 returns to the idle pose with a subtle tail flick, completing the loop.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABE0lEQVR4nO1XwQ2DMAz0Dt3AuzAd23iBjtFxXLUVpY3UlhAXQ+5OugcScPblYoIIQRDEYpiqf+O/raS+pvrPBVDsDfBWgJ/Fy2vq9+2/vIpNLK+p36//6Qmkvu5jAqB+Aw1cv7oAd/Ebqd+H/+kFUF+38b98sV+kiq2jifqa6j8XQLE3wPy7MciDlQVMz43D6c4s/dYF8CD9Wh+y+2cAFDQAvw5Zz4IWMmwCrGTYBBja9JsDsFX/6AGw4P4ZAAbAOQE4Afwwn4DoAjgB9FgTAD0Agn4ILAtoZWsAopitP64MQFb/DICCB+BTIdH3EzsHAwAO9AAYeP/wBhgDgL0DDLx/eAMMPQDoMAYAG8YAEAQhveIK9d+/pjR/cWIAAAAASUVORK5CYII=",
+          "metadata": {
+            "model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "temperature": 0,
+            "generatedAt": "2026-09-07T11:49:08.233Z",
+            "attempts": 1,
+            "costUsd": 0,
+            "seed": 2141657153
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 1
+      },
+      "criticAttempts": {
+        "char-1788781748234-crimson-salamander": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The flame pattern and glowing eyes are the most legible visual elements, clearly identifying the salamander. The staff and tail flick are secondary details. Subject identity is carried by the subject itself.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "watcher"
+    },
+    {
       "id": "run-1788761159896",
       "startedAt": "2026-09-07T06:05:59.896Z",
       "completedAt": "2026-09-07T06:05:59.896Z",
