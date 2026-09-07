@@ -1,6 +1,49 @@
 {
   "runs": [
     {
+      "id": "run-1788739547703",
+      "startedAt": "2026-09-07T00:05:47.703Z",
+      "completedAt": "2026-09-07T00:05:47.703Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788739513989-azure-wind-sprite",
+          "name": "Azure Wind Sprite",
+          "prompt": "A 32x32 pixel art sprite of a small ethereal wind spirit resembling a translucent fox-like creature with flowing azure-blue fur, glowing white eyes, and delicate silver wing-like ribbons trailing behind. The sprite consists of 4 animation frames showing a gentle hovering loop: frame 1: spirit facing slightly left, ribbons curled upward; frame 2: ribbons extended forward as if catching a breeze; frame 3: spirit tilted right, ribbons swooping downward; frame 4: ribbons looping back to starting position, completing the cycle. Background transparent, limited palette: azure, white, silver, soft teal accents. Pixel art style, crisp edges, suitable for looping animation.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA6ElEQVR4nO3Wyw3CMBCEYXfAjTs9zJkm3MD24sKNhBQpQiCRYMfB8x/m5MPuJF8e6aKoJGyTRi9AAgAkAEDi3ACut/umjC5GAgAtc520PwDk3X8zgKzyzLvS67NeCy8ztp7NAiA37g8AeffnE6D/AtA6AJB3/90AFu2fnojei7/OPxpAnqQ/bwB59weAvPsDQN79ASDv/mnPD8e3abUk80u3+QCQ9/zUY/B6gRYXY+QNyD/2b3ENAACACgAAVAAAoAIAAPUwAGe4AcwPADC/AID5ZRwAEtMGAPIOAOQdAMg7AJB3ACDvPAD5Qfb0JC7IpAAAAABJRU5ErkJggg==",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-07T00:05:13.989Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 538501730
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1788739513989-azure-wind-sprite": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The azure-blue body and white eyes are the most legible features, clearly identifying the spirit; the silver ribbons are present but subordinate. Subject identity is conveyed by its own body parts.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1788708940426",
       "startedAt": "2026-09-06T15:35:40.426Z",
       "completedAt": "2026-09-06T15:35:40.426Z",
