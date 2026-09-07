@@ -96,15 +96,34 @@
     .then(data => render(data))
     .catch(() => render({ runs: [] }));
 
-  // Build a sprite <div> for one character. The character record carries
-  // the sprite sheet as a base64 PNG; the sheet is frameCount columns wide
-  // with each cell frameWidth px. Animated characters walk the sheet in
-  // steps(frameCount). Still or unrecognised records degrade to a plain
-  // <img> with no animation -- no guessing at fields the record omits.
+  // Build a sprite element for one character. A character carrying gifData
+  // (openrouter-pixel-art-worker#9) is a real, correctly-timed animated GIF
+  // baked at generation time -- render it directly as an <img> and skip the
+  // CSS stepper below entirely, which sidesteps the whole class of bug
+  // openrouter-pixel-art-watcher#69 found in its background-position math
+  // (a frame count whose steps don't land on integer offsets blends two
+  // adjacent frames together). A character with no gifData (nothing
+  // published before openrouter-pixel-art-worker#9 has one) still falls
+  // back to the CSS-stepped sheet below, unchanged.
+  //
+  // The character record carries the sprite sheet as a base64 PNG; the
+  // sheet is frameCount columns wide with each cell frameWidth px. Animated
+  // characters walk the sheet in steps(frameCount). Still or unrecognised
+  // records degrade to a plain <img> with no animation -- no guessing at
+  // fields the record omits.
   function renderSprite(character) {
     const frameCount = Number.isFinite(character.frameCount) ? character.frameCount : 1;
     const frameWidth = Number.isFinite(character.frameWidth) ? character.frameWidth : 32;
     const animated = !!character.isAnimated && frameCount > 1;
+
+    if (character.gifData) {
+      const gif = document.createElement('img');
+      gif.className = 'sprite';
+      gif.src = 'data:image/gif;base64,' + character.gifData;
+      gif.alt = (character.name || 'character') + (animated ? ' (animated)' : '');
+      return gif;
+    }
+
     const src = 'data:image/png;base64,' + character.imageData;
 
     const sprite = document.createElement('div');
