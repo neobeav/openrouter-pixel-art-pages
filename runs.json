@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1788826037829",
+      "startedAt": "2026-09-08T00:07:17.830Z",
+      "completedAt": "2026-09-08T00:07:17.830Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788825923204-luminous-crystal-golem",
+          "name": "Luminous Crystal Golem",
+          "prompt": "A 32x32 pixel art sprite of a luminous crystal golem, humanoid shape built from glowing teal and cyan crystal shards with a sturdy torso, arms, and legs; a pulsating core light in its chest brightens and dims; cracked stone base on feet and small floating crystal shards orbit shoulders. Four-frame animation loop: Frame 1 – idle pose, core low glow, arms relaxed; Frame 2 – core brightens, arms slightly raised; Frame 3 – core at peak brightness, arms fully raised, orbiting shards spin faster; Frame 4 – core dims back, arms lowering, returning to idle. Seamless loop.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA5klEQVR4nO2T2QqDQBRD7///dPpSKYiUzqKZTg4HoVo0i7FKUMnYDYCs2A2ArNgNgKz03KTGA2pdem5KH4B2yh9fgMLzjxRw/LoO/fnvPr5VfF/9WmYAE/KPyWYPoHbI/99fgActM4AJjBSQPgDtkH9GAecrzxfwrKJ2yl/pX4DC88cXoPD88QUoPH98AQrP3xy++o5ZoF9z9e0G0JdV/2fp97OGDBynKxWgBgY6OD9jmfwMoBgAAygGwACKATCAYgBLvwD0xQDQFwNAX7YBQO2F3QDIit0AyIrdAMiK3QDIit0AyMkLfeAMxAiDRtsAAAAASUVORK5CYII=",
+          "gifData": "R0lGODlhIAAgAIIAAAAAAP////8AAAD/AAAA////AP8A/wD//yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADXji63P4wykmrvbiVzfvOiycWoDJ65bAdh8eS5dp2b3p29v3FHPtyOV3wNjwVRyWBcslkgprQJYZAiEYH1ArVCsUStFWuM0vZiqXkifks8F7Yyidczk7Z7/i8fs+XJAAAIfkECQ8AAAAsAAAAACAAIAAAAzs4utz+MMpJq7046807PEcDesPImGSqXiC6vnAsQ0Jt37eG77bO775fLiPEBYuCY1EpZP6cvJl0Sq1OEwAh+QQJDwAAACwAAAAAIAAgAAADXji63P4wykmrvThrVbr/3TaAZCGW4FkcB8iaW/d+r4qGscfOuHZ7tlsQNSxtBMikUqlZOpMZAuHpVEgrUurSSsBOtdDBlZIFI7le81ncrajXmLeg+RbZ7/i8fs+XJAAAIfkECQ8AAAAsAAAAACAAIAAAAzs4utz+MMpJq7046807PEcDesPImGSqXiC6vnAsQ0Jt37eG77bO775fLiPEBYuCY1EpZP6cvJl0Sq1OEwA7",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-08T00:05:23.204Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 1241414573
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1788825923204-luminous-crystal-golem": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The core light and humanoid silhouette are the most legible features, making the golem identity clear; the stone base and orbiting shards are secondary. Subject dominates, so the sprite passes.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1788782756909",
       "startedAt": "2026-09-07T12:05:56.909Z",
       "completedAt": "2026-09-07T12:05:56.909Z",
