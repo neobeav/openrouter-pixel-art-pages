@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1788869182193",
+      "startedAt": "2026-09-08T12:06:22.193Z",
+      "completedAt": "2026-09-08T12:06:22.193Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788869148416-sapphire-salamander",
+          "name": "Sapphire Salamander",
+          "prompt": "A 32x32 pixel art sprite of a sleek sapphire-colored salamander with glowing teal eyes, a faint bioluminescent stripe running along its back, and tiny crystal shards adorning its tail. Four-frame animation loop: Frame 1 – salamander standing still, tail slightly curled; Frame 2 – mid-step with left front leg lifted, body swaying gently; Frame 3 – opposite step with right front leg lifted, tail flicking outward; Frame 4 – returning to the idle pose with a subtle blink of the eyes and a brief shimmer pulse along the bioluminescent stripe. Use a limited, cohesive palette with clear outlines to ensure readability at small size, designed for seamless looping.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAzElEQVR4nO3VsQ3CQBBEUVdx+fRAPBkV0MD24hZpgiqMZMkJEWevdAf7gx9Z8pzNE16avJHLtow+ABkAZACQAUAGABkAZACQAUCeG8Djtu71Xstq9H4bXMbzA0C19/kE6HcBZAQA1S4FwKF9lHr219P7/AOodgBQ7QCg2gFAtesGsD3jVFkHZj9S9wGg2vtfA3jdY+/KAY57zPQCWkdX3sHnPWZ5fgAIAAAQAAAgAABAAJj6B2DfAGA/AMB+jANA/qsAoNoBQLUDgGr3BsHTUFh7s2dKAAAAAElFTkSuQmCC",
+          "gifData": "R0lGODlhIAAgAIIAABoaLulFYBYhPg80YFM0g/+ai//UYGvLdyH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADSCi63P4wykmrvTjrzbv/4EIQzfiZDBqubDSqbSzPsmHfOK7l/I0FgV5PAKwAhTxiwBhE6oqUo9MHnUinBuUFa9txvViaeExOAAAh+QQJDwAAACwAAAAAIAAgAAADOyi63P4wykmrvTjrzbv/4EIQzfiZDBqubDSqbSzPsmHfOK7l/L33vB9QlxnmhEYD0rgcNoHPHm1KrSYAACH5BAkPAAAALAAAAAAgACAAAANJKLrc/jDKSau9OOvNu/9gKBFEQ34nk4qsQq5tLM+yYd84ruX8nQWBHk8BrACFOWLAGET6BEXK0WlTMqlV6LKCzWK6hl2XRi6bEwAh+QQJDwAAACwAAAAAIAAgAAADOyi63P4wykmrvTjrzbv/4EIQzfiZDBqubDSqbSzPsmHfOK7l/L33vB9QlxnmhEYD0rgcNoHPHm1KrSYAADs=",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-08T12:05:48.416Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 1760689310
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1788869148416-sapphire-salamander": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The salamander's body and eyes are the most legible visual elements, clearly conveying the subject identity; the bioluminescent stripe provides supporting detail without overshadowing the subject.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1788826037829",
       "startedAt": "2026-09-08T00:07:17.830Z",
       "completedAt": "2026-09-08T00:07:17.830Z",
