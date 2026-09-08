@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1788890822980",
+      "startedAt": "2026-09-08T18:07:02.980Z",
+      "completedAt": "2026-09-08T18:07:02.980Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788890714634-cobalt-sky-drake",
+          "name": "Cobalt Sky Drake",
+          "prompt": "A 32x32 pixel art sprite of a cobalt-scaled drake with sky-blue wing membranes, glowing amber eyes, and a small crystal horn on its forehead. Four-frame animation loop: frame 1 shows the drake idle with wings slightly tucked at its sides; frame 2 depicts the beginning of a downstroke as the wings start to lower; frame 3 shows the wings fully extended downward at the lowest point of the flap; frame 4 captures the upstroke as the wings rise back toward the idle position. Include subtle pixel-level shading, highlights on the scales, and a smooth looping motion that conveys gentle flight.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA2ElEQVR4nO3VsQnDMBSEYS+nNotomIxzhdq0CbyJHAgETIrEtmyk6P7iKoGeTvqwp6SYSdhman0AEgAgAQASACABABL9AijXx6a0LkcCAEemDNgfAPLuvwvAtwtZrrUuB4AAwBkA0kD9+QUIAACQb/8qAFvX/z1lwP58AeTdHwDy7g8AefcHgLz7rwYw57wrRx2U+fmU+QCQ9/yfAC732ys1B3jv0eMFpBWpuYPPPXrrDwABAAACAAAEAAAIAF0+APMDAMzPAGB+bgeAxJABgLwDAHkHAPLOE7DoIKDhZuGEAAAAAElFTkSuQmCC",
+          "gifData": "R0lGODlhIAAgAIIAAAAAAP////9ra07NxEW30ffcb7uPzoXB6SH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADWUi63P4wykmrvTjrXY3/oMeFpDGW4KmEq0qw74mK2/zJ5pLWdq71vgwQh9oIjshkUqNsIjGDgdNJiFai02Z1cJVml1YK9vsMT8ZkwfaSPjLb7zRnTq/b74QEACH5BAkPAAAALAAAAAAgACAAAAMySLrc/jDKSau9OOvNu/9gKI5kaZ5oGgps67raK7fxLNc2nOUvzgs+XjA3tBVnqqTylAAAIfkECQ8AAAAsAAAAACAAIAAAA1hIutz+MMpJq7046807M2AogtxoGuUppsrYsoQbpyq5rQuu1SFd+yrgaSMoGo9HDXJpzAwGzKXiWXlGkdNBFXptEqgUa7eY3Y7JX23ljMawBUq2Z06v2zEJACH5BAkPAAAALAAAAAAgACAAAAMySLrc/jDKSau9OOvNu/9gKI5kaZ5oGgps67raK7fxLNc2nOUvzgs+XjA3tBVnqqTylAAAOw==",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-08T18:05:14.634Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 654743850
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1788890714634-cobalt-sky-drake": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The cobalt body and sky-blue wings are the most legible features, clearly identifying the drake. The amber eyes and crystal horn are secondary but present, with subject parts dominating the visual identity.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1788869182193",
       "startedAt": "2026-09-08T12:06:22.193Z",
       "completedAt": "2026-09-08T12:06:22.193Z",
