@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1788977145474",
+      "startedAt": "2026-09-09T18:05:45.474Z",
+      "completedAt": "2026-09-09T18:05:45.474Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788977112204-glimmering-gear-golem",
+          "name": "Glimmering Gear Golem",
+          "prompt": "A 32x32 pixel art sprite of a petite stone golem constructed from interlocking brass gears and glowing amber eyes, wearing a worn leather satchel slung across its back and copper rivets tracing its limbs; frame 1: neutral stance with gears idling slowly; frame 2: right arm lifts in a friendly wave as the gears accelerate, showing a blur of motion; frame 3: left leg steps forward, the golem's torso rocks gently and gears click audibly; frame 4: returns to neutral pose with a subtle pulse of light from the eyes, completing a seamless 4-frame loop.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA0ElEQVR4nO3VQQ6DMBAEwf3/pzuXHFAUkQA2Np5GmlMQs2tKpKAwFZsaPYApAZgSgCkBmJoZwNFr/HKmBNAuR6/R8wpAAHQAsHcc3+9sPvC749hvqwCoxvsLgOz9/QvgWQA6gBIAwfufBvD7eLoP/tF/L4BaZH+/AGTvLwCy9xcA2fsLgOz9/wNw+swaDWo/vfoFQHb//tOvzr59xqQHQK/ubf/VeQQgAAQgAAQgAAQgAG4DMMMLsB8B2I8A7GccAMOqEQDZEQDZEQDZEQDZeQGxKc3V1+6fqAAAAABJRU5ErkJggg==",
+          "gifData": "R0lGODlhIAAgAIIAAAAAAP////8AAAD/AAAA////AP8A/wD//yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADWFi63P4wykmrvTjnwLvnmvKNQViQn8kdx8eW4dp6r4p29g1rNDuDMd1uI8zdjKiQYclsNjXOKBMjrRoKy4pVir1SttGuFvzMfslT85gMRbfZprh8Tq/bHwkAIfkECQ8AAAAsAAAAACAAIAAAAztYutz+MMpJq7046827v8fRhB/JmF+qgqG4vnAsS0Zt37eG77bO775fLiPEBYuGY1EpZP6cvJl0Sq0yEgAh+QQJDwAAACwAAAAAIAAgAAADV1i63P4wykmrvTjrTYP/oMeFZDCW4Hkc4Wpungu6JyrC3yrfmv3VNiBKWNoYjshkUqNsIjPOqOJYiTqnhqpVidVunwUq5bsMZ71fJvmMWbM58Lh8Tq83EgAh+QQJDwAAACwAAAAAIAAgAAADO1i63P4wykmrvTjrzbu/x9GEH8mYX6qCobi+cCxLRm3ft4bvts7vvl8uI8QFi4ZjUSlk/py8mXRKrTISADs=",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-09T18:05:12.204Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 1481251303
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1788977112204-glimmering-gear-golem": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The amber eyes are the most legible element and belong to the subject, followed by the gear-covered body. The satchel is a prop but subordinate. Subject identity is clearly carried by the subject's own features, meeting the pass criteria.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1788955559350",
       "startedAt": "2026-09-09T12:05:59.350Z",
       "completedAt": "2026-09-09T12:05:59.350Z",
