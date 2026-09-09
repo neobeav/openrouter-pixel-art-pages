@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1788955559350",
+      "startedAt": "2026-09-09T12:05:59.350Z",
+      "completedAt": "2026-09-09T12:05:59.350Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788955522748-ruby-clockwork-hare",
+          "name": "Ruby Clockwork Hare",
+          "prompt": "A 32x32 pixel art sprite of a ruby-colored mechanical hare with glowing amber eyes, visible brass gears on its limbs and torso, and a small leather satchel strapped to its back. Four-frame animation loop: Frame 1 – hare standing upright, ears straight, satchel resting; Frame 2 – left hind leg lifted, gears on that leg turning clockwise, body slightly shifted forward; Frame 3 – mid-hop, body compressed, ears flung back, both hind legs extended, satchel bouncing; Frame 4 – right hind leg landing, gears clicking, ears returning to upright position, completing the loop. Background transparent, crisp pixel outlines, limited palette of ruby red, brass yellow, amber, and dark gray for shading.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAwElEQVR4nO3SsRWDMBAEUVU8JVGSWzqnjvwetuCQdoJJORb+KCgjttH9AoYADAEYawDgVafqHmgIYGZstl8AZO9fFsC35195m832C4Ds/csC6IrN9guA7P3LA+i+x+L7lwdwd2y2XwBk7xcA2fsFQPb+UwCo46emfXzv1+z7AiD7/rjy8OcLzPgYnT+AP/fP+AYCEEAJQAAlAAGUAARQtwF4wg/wPgLw/iEA7x99AIztEgDZCYDsBEB2AiA7AZDdG5sTgsMc5BV+AAAAAElFTkSuQmCC",
+          "gifData": "R0lGODlhIAAgAIIAAA8PG/9ubv+ebv/mbm7/nm7O/56P//9u+iH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADUBi63P4wykmrvZiVzfvOiycWoDJ6ZXB26cq1LlnGMkjDLr7qJz+WhKBwOAQRj0IMckkIBCtMpLNJiR6nUGvxWdUmuVmt0TsWp87otHrNbksSACH5BAkPAAAALAAAAAAgACAAAAM7GLrc/jDKSau9OOvN+ytFA3rByJhkql4gur5wLENEbd+3hu+2zu++Xy4jxAWLhGNRKWT+nLyZdEqtUhMAIfkECQ8AAAAsAAAAACAAIAAAA08Yutz+MMpJq70461C6/93GgaRIltsJmqrHtsXbyip92qgGhxrh/0BgL0j0ZYpIhZGCLCoJlSbxGZUKA8uJ9ZrVbqHH73ArKpvP6LR6PUkAACH5BAkPAAAALAAAAAAgACAAAAM7GLrc/jDKSau9OOvN+ytFA3rByJhkql4gur5wLENEbd+3hu+2zu++Xy4jxAWLhGNRKWT+nLyZdEqtUhMAOw==",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-09T12:05:22.748Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 1589929550
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1788955522748-ruby-clockwork-hare": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The ruby red body mass is the most prominent feature, clearly identifying the character. The brass gears and amber eyes are distinctive mechanical elements that support the identity without overshadowing the main subject.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1788933945151",
       "startedAt": "2026-09-09T06:05:45.151Z",
       "completedAt": "2026-09-09T06:05:45.151Z",
