@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1788933945151",
+      "startedAt": "2026-09-09T06:05:45.151Z",
+      "completedAt": "2026-09-09T06:05:45.151Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788933913524-turbo-neon-turtle",
+          "name": "Turbo Neon Turtle",
+          "prompt": "A 32x32 pixel art sprite of a small turtle with a teal shell, neon green stripes along the shell edges, bright orange eyes, and a tiny jetpack on its back. Frame 1: turtle standing still, jetpack off. Frame 2: turtle lifting its left leg, jetpack igniting with a small orange flame. Frame 3: turtle mid-step, jetpack firing, emitting a brief pixel trail behind. Frame 4: turtle landing, jetpack fading, returning to the idle pose.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA30lEQVR4nO3XQQ6DMBBDUU6cI83xeohs3A2oFWqlJgwNxH/hFRKDkwcoS1GIhG2W0Q9AAgAkAEACACQAQOLaAPQoTRldkAQAMqPJ+gNA3v37AZQ1n4q/XTttI9YZrddmAaCk/gCQd39+AbongKwAQN79jwPYtH95I07fkN38vwMo9+7PF0De/QEg7/4AkHd/AMi7fxMAldqVtMVnvrLnA0De838C8Dpm9D9AxjFt5AbowBrs73Gl/gAQAAAgAABAAACAAHDZDWB+AID5FQDMr+MAkJguAJB3ACDvAEDeeQLaz6C01LDEbAAAAABJRU5ErkJggg==",
+          "gifData": "R0lGODlhIAAgAIIAAA8PG/9ubv+ebv/mbm7/nm7O/56P//9u+iH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADWUi63P4wykmrvTjrbYf/oMeF5DCW4BkE4Wpungu6JyrC9q3NK/vVNiBKWCKSNoekcrnUMJ9KzAoKJawqUyrTGsAGtNsrJQtOcr3lqLiSNmfaB2ebQ6/b7/gEACH5BAkPAAAALAAAAAAgACAAAAM7SLrc/jDKSau9OOvNu/+gEgTN+JkMGq5sNKptLM/yYd84ruX8vfe8H1CXGeaExgPSuBw2gc8ebUqtEhIAIfkECQ8AAAAsAAAAACAAIAAAA1xIutz+MMpJq7046817G2AogtxoDuUppkEwtugGwiKcqqQctnSu4aEbTqginjaHpHK51DCfykwL+lS0KlNqk3ClZLVJawAbAEe5Y2/ZfBBb2OEMvC2He+74vP6SAAAh+QQJDwAAACwAAAAAIAAgAAADO0i63P4wykmrvTjrzbv/oBIEzfiZDBqubDSqbSzP8mHfOK7l/L33vB9QlxnmhMYD0rgcNoHPHm1KrRISADs=",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-09T06:05:13.524Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 836083573
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1788933913524-turbo-neon-turtle": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The teal shell and neon green stripes are the most legible subject features, establishing clear turtle identity. The orange eyes and jetpack are secondary but support recognition. Subject dominates the visual hierarchy.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1788890822980",
       "startedAt": "2026-09-08T18:07:02.980Z",
       "completedAt": "2026-09-08T18:07:02.980Z",
