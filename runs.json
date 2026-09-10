@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1788998813660",
+      "startedAt": "2026-09-10T00:06:53.660Z",
+      "completedAt": "2026-09-10T00:06:53.660Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1788998712023-solaris-sprite",
+          "name": "Solaris Sprite",
+          "prompt": "A 32x32 pixel art sprite depicting a small, sun‑inspired creature with a rounded golden body, subtle orange gradient shading, and tiny white sparkles resembling solar flares. It wears a delicate silver crown with three pointed tips on its head. The animation consists of four frames looping smoothly: Frame 1 shows the creature at rest with its crown upright; Frame 2 adds a slight outward pulse where the golden body expands by 1 pixel and the crown glows brighter; Frame 3 returns to the original size but adds a faint upward wiggle of two tiny pixel‑sized wings on its back; Frame 4 repeats the pulse of Frame 2, completing the cycle. The background is transparent, and the color palette includes gold (#FFD700), orange (#FFA500), white (#FFFFFF), and silver (#C0C0C0).",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA7UlEQVR4nO3VsQ3CMBCF4bSeixno3ggUDMEGntCiOLYAKZIlFIEgsY2D7y9eFSl3L/niTCfZnZjbTL0XIAYAYgAgBgBiACC2XwDhcl2V3uWIAaBmwoD9ASDf/TcBSOfjnFeln6+1WjrPWHttFACpYn8AyHd/fgH6PwA1AwD57l8EIGt/90W0Xn45/9cA0gD9OQHkuz8A5Ls/AOS7PwDku//XAG6HuCm1FmV+bDIfAPI9/yOAfJyVLFDjSOz5AkLBM1jeY2/9ASAAAEAAAIAAAAABYJcvgPkGAOZHADA/9gNAbMgAQL4DAPkOAOQ7D/AwuXCINje7AAAAAElFTkSuQmCC",
+          "gifData": "R0lGODlhIAAgAIIAAC00Nt/m6eFwVQC4lAmE4+hDk2xc5/3LbiH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADWmi63P4wykmrvTjrXYn/oMeFJDGW4CkI4Wpungu6JyrC9q3NK/vVNiBKWCKSNoWkcrnUMJ9KjAcKNegkUyrT+ppktdFr5AsucDuEcrhLUSedbriaQ6/b73hDAgAh+QQJDwAAACwAAAAAIAAgAAADO2i63P4wykmrvTjrzbv/oCEIzfiZDBqubDSqbSzPcmHfOK7l/L33vB9QlxnmhMYC0rgcNoHPHm1KrSoSACH5BAkPAAAALAAAAAAgACAAAANaaLrc/jDKSau9OOvNOyNgKILcaBLlKaaCMLboBsIinKqkHLZ0ruGhG06oIp42haRyudQwn8oMCPpU+CRTatNwjWS1SWts8gWLK2XtuQLeYtrRDDzsqdvv+EsCACH5BAkPAAAALAAAAAAgACAAAAM7aLrc/jDKSau9OOvNu/+gIQjN+JkMGq5sNKptLM9yYd84ruX8vfe8H1CXGeaExgLSuBw2gc8ebUqtKhIAOw==",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-10T00:05:12.023Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 1842352982
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1788998712023-solaris-sprite": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The golden body is the most prominent visual element, clearly identifying the creature; the crown adds distinguishing detail, while the sparkles are minor. Subject parts dominate over prop.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1788977145474",
       "startedAt": "2026-09-09T18:05:45.474Z",
       "completedAt": "2026-09-09T18:05:45.474Z",
