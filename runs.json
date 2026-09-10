@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1789020359253",
+      "startedAt": "2026-09-10T06:05:59.253Z",
+      "completedAt": "2026-09-10T06:05:59.253Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1789020318975-crimson-comet-cat",
+          "name": "Crimson Comet Cat",
+          "prompt": "A 32x32 pixel art sprite of a Crimson Comet Cat, a small fiery-furred feline with a comet-like tail, bright red-orange fur, white star-shaped markings on its forehead and cheeks, glowing yellow eyes, a tiny silver scarf around its neck, and tiny black paw pads. The animation loops over 4 frames: Frame 1 shows the cat crouched low, tail coiled, ready to sprint; Frame 2 depicts the first stride forward with legs extended, tail streaming backward, scarf fluttering; Frame 3 captures the mid-air leap, body arched, tail fully extended like a comet streak, eyes focused forward; Frame 4 shows the landing pose with front paws touching ground, tail beginning to coil, scarf settling. Each frame maintains consistent palette and 32x32 resolution, suitable for a seamless loop.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA0UlEQVR4nO3V0QqDMBBE0fv/P72FgqWID1W3JjqXME/abCY9tBSUITaMPoBBAAYBGARguAeAvR8ZXdIggNZL4zn9BUB2/3MAlrX12tezPx7+vfY+ewoAGvoLgOz+/gVwXwAtXQRAdP8eAOt18QWs1+UA6r79/QUgu78AyO4vALL7C4Ds/gcA1MF0Hdr51ThfAGTP/x3AstOZA3z2mOcCak9O3cF6jzn6CwABCAABCAABCAABzP0FOL8E4PwSgPNrIABTD4oAyI4AyI4AyI4AyM4LnQEyrB28iYUAAAAASUVORK5CYII=",
+          "gifData": "R0lGODlhIAAgAIIAAAAAAP////8AAAD/AAAA////AP8A/wD//yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADXSi63P4wykmrvThrRbr/3SaAJCGW4EkMA8iaW/d+r4qG8Y1rNNt6tlsQNSwVSRuDcslkaprQJaZQiEYF1ArVCsUWtFWuM0vZiqXkifls8F7YyidczhbZ7/i8ft9IAAAh+QQJDwAAACwAAAAAIAAgAAADOyi63P4wykmrvTjrzbvXw9CEH8mYX6peIbq+cCxDRm3ft4bvts7vvl8uI8QFi4ZjUSlk/py8mXRKrQoSACH5BAkPAAAALAAAAAAgACAAAANcKLrc/jDKSau9OOt9if+gx4UkMZbgOQzham6eC7onKsLfKt+a/dU2IEpY2hiOyGRSo2wiM4WCs6mIVqJTZbVwlWafAisF+z1uu2VzmFtJqzFuA9PNqdvv+Ly+kQAAIfkECQ8AAAAsAAAAACAAIAAAAzsoutz+MMpJq704682718PQhB/JmF+qXiG6vnAsQ0Zt37eG77bO775fLiPEBYuGY1EpZP6cvJl0Sq0KEgA7",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-10T06:05:18.975Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 548786728
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1789020318975-crimson-comet-cat": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The red-orange fur and white star markings are the most legible visual cues, clearly identifying the cat. The tail and scarf are secondary but still recognizable. Subject identity is carried by the subject's own body parts.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1788998813660",
       "startedAt": "2026-09-10T00:06:53.660Z",
       "completedAt": "2026-09-10T00:06:53.660Z",
