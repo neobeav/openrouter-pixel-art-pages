@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1789041951997",
+      "startedAt": "2026-09-10T12:05:51.997Z",
+      "completedAt": "2026-09-10T12:05:51.997Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1789041920246-azure-ember-fox",
+          "name": "Azure Ember Fox",
+          "prompt": "A 32x32 pixel art sprite of a sleek fox with azure fur and glowing ember-orange tail tips, wearing a small bronze gear on its left ear. Four-frame animation loop: frame 1 - fox standing still, tail low; frame 2 - mid-step with right front paw lifted, tail swaying; frame 3 - full stride, left paw forward, ears perked, ember particles flickering; frame 4 - landing pose, tail arched, eyes bright. Use limited palette: azure (#00BFFF), ember orange (#FF4500), bronze (#CD7F32), white highlights, black outlines. Ensure seamless loop.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAt0lEQVR4nO3ZsQ2EQAxEUSqeVujAhToxATkCwZ21nh/8dJdBL0FspSxK27buB6AEACUAKNcBEHs9qnskJQC+LAbtB4C89y8N4Or8X94dg/YDQN77lwbQVQzaDwB57x8BoPu+WHj/CAD/LgbtB4C89wNA3vsBIO/9/AySdwCQd/cBhM7eXPjFGZ3FvHcAAAHAdnwBAAAFAN/xBQC+Aso8AMg7AMg7AMg7AMg7AMg7AMg7AMg7AMi7Az/vD6eIa+6IAAAAAElFTkSuQmCC",
+          "gifData": "R0lGODlhIAAgAIIAAA8PG/9ubv+ebv/mbm7/nm7O/56P//9u+iH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADRXi63P4wykmrvbiZzfvOiycaoDJ65XF26cq1LlnGMkjDLr7qJz+mwCBIILgQK0dLcrKkNCNPSfQxhVSF2Kx2y+16v2BIAgAh+QQJDwAAACwAAAAAIAAgAAADKHi63P4wykmrvTjrzTs0RgN6x8iYZKpeILq+cCzPdG3feK7vfO//rwQAIfkECQ8AAAAsAAAAACAAIAAAA0J4utz+MMpJq704a2W6/912gKQhluCJeupqbm4Ix+1ao3eZk2LvbwLBJVghWowTJEUZYUqcDyhE+qtar9isdsvtPhIAIfkECQ8AAAAsAAAAACAAIAAAAyh4utz+MMpJq7046807NEYDesfImGSqXiC6vnAsz3Rt33iu73zv/68EADs=",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-10T12:05:20.246Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 653737510
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1789041920246-azure-ember-fox": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The azure fur mass is the most legible element, clearly indicating the fox. The ember tail tip and bronze gear are visible but secondary. Subject identity is carried by the subject itself, meeting the pass criteria.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1789020359253",
       "startedAt": "2026-09-10T06:05:59.253Z",
       "completedAt": "2026-09-10T06:05:59.253Z",
