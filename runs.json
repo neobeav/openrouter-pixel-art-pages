@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1789063548485",
+      "startedAt": "2026-09-10T18:05:48.485Z",
+      "completedAt": "2026-09-10T18:05:48.485Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1789063517697-saffron-sky-squirrel",
+          "name": "Saffron Sky Squirrel",
+          "prompt": "A 32x32 pixel art sprite of a small, energetic squirrel with bright saffron-orange fur, sky-blue tail tip, and white belly. It wears a tiny leather satchel slung over its shoulder and holds a glowing acorn in its paws. Four-frame animation loop: Frame 1 - standing idle, tail slightly curled, acorn glowing faintly; Frame 2 - mid-step left foot forward, tail swinging, acorn light pulsing; Frame 3 - both feet off ground in a small hop, tail arched upward, acorn emitting sparkles; Frame 4 - landing with right foot forward, tail settling, acorn glow returning to base. Loop repeats smoothly, with consistent palette and clear outlines.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA00lEQVR4nO3SwRGCQBBEUTIwGTIxgcnFoxlMXJ0PVlnlxYOggLuz/Q//ytDwpkWxUNg2tX4BCgBQAICiAIC8f1cHAykAcFg53n4AyHt/TQCfnn/m7RxvPwDkvb8mgFblePsBIO/9tQG0vpf199cG8O9yvP0AkPd+AMh7PwDkvX8zgMv8W0e9KPfjlPsAkPf9VQDX+fZszwu8ntHjB1g2tOcbvD+jt/0AEAAAIAAAQAAAgADQ5Q/gfgCA+wEA7kc7ABRDBgB5BwB5BwB5BwB5BwB59wDqvH+WNv3IiwAAAABJRU5ErkJggg==",
+          "gifData": "R0lGODlhIAAgAIIAABoaLulFYBYhPg80YFM0g/+ai//UYGvLdyH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADVWi63P4wykmrvXiVzfvOmieCijiSpkcaabe23AsXMly3d5qb+5kNwKBQCBoagxgC4Xg0KCtKptFJgC6lxCclikVqJ9zugHoRA4tmtHjFbrvf8LickgAAIfkECQ8AAAAsAAAAACAAIAAAAztoutz+MMpJq7046827K0UDesbImGSqXiC6vnAsQ0Nt37eG77bO775fLiPEBYuDY1EpZP6cvJl0Sq1WEwAh+QQJDwAAACwAAAAAIAAgAAADVWi63P4wykmrvTjrwrvnmvKNRWiQn4l66gqG7rvFrVuvN5qT4eD/QKAmSPxlCIQiUYGsIJVBJsGZhBoNTcrT6pNSuV3stAIOY8qDYdnEbrvf8LickgAAIfkECQ8AAAAsAAAAACAAIAAAAztoutz+MMpJq7046827K0UDesbImGSqXiC6vnAsQ0Nt37eG77bO775fLiPEBYuDY1EpZP6cvJl0Sq1WEwA7",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-10T18:05:17.696Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 1578715858
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1789063517697-saffron-sky-squirrel": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The saffron-orange fur is the most legible visual element, followed by the sky-blue tail tip and white belly—all subject parts. The satchel and acorn are props but are smaller and less distinct at 32×32, so the subject dominates the identity.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1789041951997",
       "startedAt": "2026-09-10T12:05:51.997Z",
       "completedAt": "2026-09-10T12:05:51.997Z",
