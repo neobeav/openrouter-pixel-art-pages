@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1789106738723",
+      "startedAt": "2026-09-11T06:05:38.723Z",
+      "completedAt": "2026-09-11T06:05:38.723Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1789106711820-solaris-sentinel",
+          "name": "Solaris Sentinel",
+          "prompt": "A 32x32 pixel art sprite of a futuristic guardian robot with a sleek silver chassis, glowing cyan visor, and a small solar panel on its back. Four-frame animation loop: Frame 1 – idle stance with arms relaxed, visor pulsing softly; Frame 2 – slight forward lean, right arm raising to emit a small energy spark; Frame 3 – visor flares brighter, left leg stepping forward, solar panel glinting; Frame 4 – return to idle with visor dimming and arms lowering, completing the loop. Use a limited palette of silver, cyan, dark blue, and bright yellow accents, with clear outlines for readability at small size.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAk0lEQVR4nO3SQRKCMBQFwdz/0t8tOywBYzk97HkJ9BqlW7sPoL0BEA+AeADEAyAeAPEAiAdAPADiARAPgHgAxAMgHgDxAIj3FoD14XPfIe2vh/YBiO+vJ4aPB7jjY+z8Aevi/Y/v+MX7A3ASAAAMAAAMAABMDsA3DmD/PADsDwD2ZxsA/W8AxAMgHgDxAIgHwLR7AQoDIhwH3AZ0AAAAAElFTkSuQmCC",
+          "gifData": "R0lGODlhIAAgAIIAAAAAAP////8AAAD/AAAA////AP8A/wD//yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADOhi63P4wykmrvTjrzbv/YCiOZGme4aCuLKu18IrF9BCoVR3fNqXDvNzPhfMNZUXh8HVkLlHQqHRqSgAAIfkECQ8AAAAsAAAAACAAIAAAAzIYutz+MMpJq7046827/2AojmRpnuGgriyrtfD6xvBMu9nd2vrA679bkDaMoY7IpPKUAAAh+QQJDwAAACwAAAAAIAAgAAADPBi63P4wykmrvTjrzbv/YCiOZGme4aCuLKu18JrFtKJWdGwPeN7uPZ8scKMIXUReUPg6KjHOJ2pKrVpJCQAh+QQJDwAAACwAAAAAIAAgAAADMhi63P4wykmrvTjrzbv/YCiOZGme4aCuLKu18PrG8Ey72d3a+sDrv1uQNoyhjsik8pQAADs=",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-11T06:05:11.820Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 1042490618
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1789106711820-solaris-sentinel": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The cyan visor and silver chassis are the most legible elements, clearly identifying the robot; the solar panel is a minor prop. Identity is carried by the subject, meeting pass criteria.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1789085142173",
       "startedAt": "2026-09-11T00:05:42.173Z",
       "completedAt": "2026-09-11T00:05:42.173Z",
