@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1789149959634",
+      "startedAt": "2026-09-11T18:05:59.634Z",
+      "completedAt": "2026-09-11T18:05:59.634Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1789149914026-nebula-nomad-ninja",
+          "name": "Nebula Nomad Ninja",
+          "prompt": "A 32x32 pixel art sprite of a stealthy ninja cloaked in a flowing nebula-patterned robe, deep indigo and violet with specks of starlight, wearing a silver mask with glowing cyan eyes, holding a curved katana that leaves a faint trail. Four-frame animation: frame 1 idle stance with feet together, katana sheathed; frame 2 slight crouch preparing to leap, robe fluttering; frame 3 mid-air leap, arms extended, katana drawn, nebula swirl trailing; frame 4 landing pose, knees bent, katana raised, robe settling. Loop seamless.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAz0lEQVR4nO3XwQqDMBRE0ff/P327qaWUQpsm1iRzA7MSfRk9KBYUpmJTV2/AlABMCcCUAEwtAqD1lAmKmhLAsNQ+/QVAdv8+AMd6W/rp2GkFvt3ArgD6+wuA7P5+AlgZQH8EQHb/MQBe199vwKcNnAxg4f6+AcjuLwCy+wuA7P4CILt/e5v6McNuvvMZOF8AZM9vAHD8YfRsoP03Za4HcF9d8x8XmaK/ABCAABCAABCAABDA5A/A+QjA+QjA+VwGwLBTBEB2BEB2BEB2BEB2bigVAYaV8DyLAAAAAElFTkSuQmCC",
+          "gifData": "R0lGODlhIAAgAIIAAAAAAP////8AAAD/AAAA////AP8A/wD//yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADXFi63P4wykmrvThrZbr/3VaApCGW4GkEAciaW/d+r4qG8Y1rNNt6tlsQNSwVSRuBcslkaprQJYYVjRZYFWq1eQ1kA1sulqINK7tfs3RcUZ8zbsHTLarb7/i8vpEAACH5BAkPAAAALAAAAAAgACAAAAM7WLrc/jDKSau9OOvNu9dB0IQfyZhfql4hur5wLENCbd+3hu+2zu++Xy4jxAWLgmNRKWT+nLyZdEqtFhIAIfkECQ8AAAAsAAAAACAAIAAAA1xYutz+MMpJq704632N/6DHhaQxluAZBOFqbp4Luicqwt8q35r91TYgSljaCI7IZFKjbCIzK2dTsapEpctClXLFHqkBa8D71Ia5Y7IAbFF/M+413M2p2+/4vL6RAAAh+QQJDwAAACwAAAAAIAAgAAADO1i63P4wykmrvTjrzbvXQdCEH8mYX6peIbq+cCxDQm3ft4bvts7vvl8uI8QFi4JjUSlk/py8mXRKrRYSADs=",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-11T18:05:14.026Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 790770968
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1789149914026-nebula-nomad-ninja": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The mask and robe are the most legible visual elements, clearly conveying a ninja identity; the katana is secondary. Subject identity is carried by its own body parts, meeting the pass criteria.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1789128375763",
       "startedAt": "2026-09-11T12:06:15.763Z",
       "completedAt": "2026-09-11T12:06:15.763Z",
