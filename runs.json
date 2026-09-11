@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1789085142173",
+      "startedAt": "2026-09-11T00:05:42.173Z",
+      "completedAt": "2026-09-11T00:05:42.173Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1789085113658-celestial-coral-crab",
+          "name": "Celestial Coral Crab",
+          "prompt": "A 32x32 pixel art sprite of a celestial coral crab, glowing teal and pearl white shell with tiny star-like speckles, bright cyan eyes, and delicate golden antennae. Four-frame animation loop: frame 1 shows crab resting with claws closed; frame 2 lifts left claw slightly; frame 3 extends both claws outward as if waving; frame 4 returns to resting pose, creating a smooth looping motion. Background transparent.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAxklEQVR4nO3YwQmDQBhEYSvcrlJYYK5TiFUoCF48GfeX3TBPeKdARs1HglmatZFiW0afAAkAJACQAEACAAkAJACQ5gXw+a5Hv75W1ej9NrjK6weAs/f5CfD/AagMAM6uC8CpfZR69tfufb4BnB0AnB0AnB0AnN1tAE+PqhNl/9kBAPa3LgDnI0bPCVQ8Jr11A9qNeu7B9T1mu34AGAAAMAAAYAAAwACY8gNgX6/tA8DZ+wBw9j5/BTs7ADg7ADg7ADg7ADi7Hbokalt5//bkAAAAAElFTkSuQmCC",
+          "gifData": "R0lGODlhIAAgAIIAAAAAAP////9ra07NxEW30ffcb7uPzoXB6SH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADSDi63P4wykmrvTjrzbvHx9GEH8mYX6peIbq+cCxDQW3ft4bvNnjwvIErEgLuhCJK0ZgbQpbMGrICjU4t0V4mK91yZ+CweLxIAAAh+QQJDwAAACwAAAAAIAAgAAADOzi63P4wykmrvTjrzbvHx9GEH8mYX6peIbq+cCxDQW3ft4bvts7vvl8uI8QFi4FjUSlk/py8mXRKrS4SACH5BAkPAAAALAAAAAAgACAAAANJOLrc/jDKSau9OOvNu//gcBzN+JkMGq7pSLJwLM9NYN84ruX8nY09nkIlAQZ1otfEeLQNlcVD05esMJtPy5SK2Toz3gBtTC6TEwAh+QQJDwAAACwAAAAAIAAgAAADOzi63P4wykmrvTjrzbvHx9GEH8mYX6peIbq+cCxDQW3ft4bvts7vvl8uI8QFi4FjUSlk/py8mXRKrS4SADs=",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-11T00:05:13.658Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 711491552
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1789085113658-celestial-coral-crab": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The teal shell with pearl speckles is the most prominent visual element, clearly identifying the crab; the cyan eyes and golden antennae provide additional confirming details, making the subject identity strong and unambiguous.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1789063548485",
       "startedAt": "2026-09-10T18:05:48.485Z",
       "completedAt": "2026-09-10T18:05:48.485Z",
