@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1789128375763",
+      "startedAt": "2026-09-11T12:06:15.763Z",
+      "completedAt": "2026-09-11T12:06:15.763Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1789128315061-luna-lumen-lynx",
+          "name": "Luna Lumen Lynx",
+          "prompt": "A 32x32 pixel art sprite of a lynx with luminous silver-white fur, glowing cyan eyes, and a delicate crescent moon mark on its forehead. The lynx wears a thin, dark violet collar with a tiny silver star charm. Four-frame animation loop: Frame 1 – idle stance, head slightly tilted, tail relaxed; Frame 2 – slight crouch, front paws bent, ears forward, eyes narrowed as if preparing to pounce; Frame 3 – mid-leap, body arched, tail extended backward, legs fully extended, moon mark glowing brighter; Frame 4 – landing impact, paws touching ground, knees bent, fur ruffling slightly, then returning to idle. Include subtle shimmer pixels on the fur and a faint aura of translucent moonlight particles that pulse gently around the lynx throughout the loop, ensuring seamless transition from frame 4 back to frame 1.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAy0lEQVR4nO3VsQ3CMABE0SznaVxkCma6mhGuZwEmoAxSpDRUCbZkw/3iV5FyTngiS5E3cmzL6AOQAUAGABkAZACQAUAGAHluAK/Hunf1Wq9G75fB9Xp+ACh7n0+AfhNArwCg7JoBHNpHqWd/bdrnH0DZAUDZAUDZAUDZXQKw1fpVvQ7Lfu2+DwBl758CcLs/91oOcNxjthdQTtbyDj7vMdPzA0AAAIAAAAABAAACwLQ/APsGAPsVAOzXcQDIfxcAlB0AlB0AlB0AlN0bFxf5LewOKa8AAAAASUVORK5CYII=",
+          "gifData": "R0lGODlhIAAgAIIAAAAAAP////9ra07NxEW30ffcb7uPzoXB6SH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADSUi63P4wykmrvTjrzbvPRdGEH8mYX6peIbq+cCxDQm3ft4bvNnYcPB7hV/kFd8NDEXjMESnGZu85iUoFycu1ptt2r7OweExWJAAAIfkECQ8AAAAsAAAAACAAIAAAAztIutz+MMpJq7046827z0XRhB/JmF+qXiG6vnAsQ0Jt37eG77bO775fLiPEBYuCY1EpZP6cvJl0Sq0qEgAh+QQJDwAAACwAAAAAIAAgAAADSki63P4wykmrvTjrzbv/oFIUzfiZDBqu6UiycCzPjWDfOK7l/J0dhx5PAawAhTniwRhE+ghFytFpUzKpVeiygs1iuoJdl0Yum8kJACH5BAkPAAAALAAAAAAgACAAAAM7SLrc/jDKSau9OOvNu89F0YQfyZhfql4hur5wLENCbd+3hu+2zu++Xy4jxAWLgmNRKWT+nLyZdEqtKhIAOw==",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-11T12:05:15.061Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 1688828406
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1789128315061-luna-lumen-lynx": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The silver-white fur is the most legible feature, followed by the cyan eyes and moon mark; the collar is subtle. Subject identity is clearly carried by the lynx's body and facial features.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1789106738723",
       "startedAt": "2026-09-11T06:05:38.723Z",
       "completedAt": "2026-09-11T06:05:38.723Z",
