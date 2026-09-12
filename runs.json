@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1789171543800",
+      "startedAt": "2026-09-12T00:05:43.800Z",
+      "completedAt": "2026-09-12T00:05:43.800Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1789171513323-starlight-salamander",
+          "name": "Starlight Salamander",
+          "prompt": "A 32x32 pixel art sprite of a luminous salamander with a glowing teal body, bright orange spots along its back, and a small crystal amulet around its neck. Frame 1: salamander standing still, tail slightly curled. Frame 2: mid-step with left leg forward, tail swaying to the right. Frame 3: standing with right leg forward, tail swaying to the left. Frame 4: mid-step with right leg forward, completing the loop. The crystal amulet pulses with a soft white glow each frame, enhancing the magical feel.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA60lEQVR4nO2Vyw2DMBBE6SA37ukh59zSh/vZDqZDqiASElKE8hHBjh3PO7yTJc/O8oBhVswQtgy1B4BAAAgEgGhbgOmWdlG7GAQC5GTqtD8CyLv/bgHG83XhWenHs1IDrxl7z3oRYMzcHwHk3Z9fgP5LgNwggLz7fy3AavurN6L04Nv8XwswdtKfL4C8+yOAvPsjgLz7I4C8+w8lyudeAvmpWD4CyDv/rQCnS1o4MsB6R6sLmD9wZAfbO1rsjwBCAAQQAiCAEAABhADNPQDyAwHITwhAfqonAES3IIC8QQB5gwDyBgHkDQLImzuwkszwmSWacgAAAABJRU5ErkJggg==",
+          "gifData": "R0lGODlhIAAgAIIAABoaLulFYBYhPg80YFM0g/+ai//UYGvLdyH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADVli63P4wykmrvViFzfvOiycGoDZ2ZbEJgseS5dp2b3qi8f3l8svZOhgoKMwQgTpecEgsUgaDJglagUoL1Ge0iR1Ut8fsxMoVU65GbvqYarvf8Lh8TkkAACH5BAkPAAAALAAAAAAgACAAAAM7WLrc/jDKSau9OOvNexPCF3qg6J0oB5Zp677wFcx0XWt2TuN6zve3DND2GwaKQyRQ2WPqYtCodEp1JAAAIfkECQ8AAAAsAAAAACAAIAAAA1VYutz+MMpJq70458C755ryjUFYkJ/JCcLHluHaeq+Kdrb84vEN9r7cTYgC+mCYI+8yGChhzUrzqYhSpsrqQOrMFqwT7FFreSIvZk3axG673/C4nJIAACH5BAkPAAAALAAAAAAgACAAAAM7WLrc/jDKSau9OOvNexPCF3qg6J0oB5Zp677wFcx0XWt2TuN6zve3DND2GwaKQyRQ2WPqYtCodEp1JAAAOw==",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-12T00:05:13.323Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 249791858
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1789171513323-starlight-salamander": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The teal body and orange spots are the most legible visual cues, clearly conveying the salamander's identity. The amulet and tail are secondary but reinforce the character; subject parts dominate the top features.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1789149959634",
       "startedAt": "2026-09-11T18:05:59.634Z",
       "completedAt": "2026-09-11T18:05:59.634Z",
