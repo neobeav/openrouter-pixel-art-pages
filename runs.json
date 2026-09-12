@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1789236373981",
+      "startedAt": "2026-09-12T18:06:13.981Z",
+      "completedAt": "2026-09-12T18:06:13.981Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1789236345348-solaris-scout",
+          "name": "Solaris Scout",
+          "prompt": "A 32x32 pixel art sprite of a futuristic scout robot with a sleek silver chassis, glowing cyan visor, and a compact jetpack on its back. Four-frame animation loop: frame 1 idle stance with a slight bob, frame 2 left leg stepping forward while the jetpack emits a small blue thrust, frame 3 right leg stepping forward with the visor flashing, frame 4 returning to idle with a subtle arm swing. Include antennae on the head, an orange stripe along the shoulders, and pixel‑shaded shading for depth.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA1UlEQVR4nO3ZwQnCQAAF0VSRu414+33sPQVYpJVsFQpCQIKC0Y1hM3OYUw7Jl5cVcagpNyvYhr0fwIoArAjASh8AxtN5VXsPtCKAlo0H2y+AsPd/DWC6Xh69Gv18basHn++x9tpRAEyN9gsg7P1+BaRPAK0SQNj7fwYwa3/3Rmw9YHn/fwOYOt/vCRD2fgGEvV8AYe8XQNj7/TMo7AQQdh8BaHGc9XIkVthnIIAIADu+CkAAVQDc8VUA/gqo8AQQdgIIOwGEnQDCTgBhJ4CwE0DYCSDs7mbpl5aOH0jFAAAAAElFTkSuQmCC",
+          "gifData": "R0lGODlhIAAgAIIAABoaLulFYBYhPg80YFM0g/+ai//UYGvLdyH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADTBi63P4wykmrvZiJzfvOiycKoDJ6ZbAdh8eS5dp2b3p29v3FHPtyOV3wNjwVR6mkErSrNCXPSRQyjVQd10dWA3N2l+CweEwum89oSwIAIfkECQ8AAAAsAAAAACAAIAAAAygYutz+MMpJq7046837O0cDesHImGSqXiC6vnAsz3Rt33iu73zv/7AEACH5BAkPAAAALAAAAAAgACAAAANKGLrc/jDKSau9OOsguv/dxoGkSJZbdxzgKpiC+7nw6dXxyt6pzWu+XyYY6gVFyGTvUpw0Kc9IVDJ9VCHXRtaxVXq/4LB4TC6bHQkAIfkECQ8AAAAsAAAAACAAIAAAAygYutz+MMpJq7046837O0cDesHImGSqXiC6vnAsz3Rt33iu73zv/7AEADs=",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-12T18:05:45.347Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 1740566383
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1789236345348-solaris-scout": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The cyan visor is the most legible visual element, followed by the orange stripe; both are part of the robot, so the subject identity is clear and dominant.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1789214745426",
       "startedAt": "2026-09-12T12:05:45.426Z",
       "completedAt": "2026-09-12T12:05:45.426Z",
