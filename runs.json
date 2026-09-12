@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1789214745426",
+      "startedAt": "2026-09-12T12:05:45.426Z",
+      "completedAt": "2026-09-12T12:05:45.426Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1789214713433-solar-flare-sprite",
+          "name": "Solar Flare Sprite",
+          "prompt": "A 32x32 pixel art sprite of a radiant solar-themed character: a small humanoid figure wearing glowing golden armor, an orange-red flowing cape, and a bright sun emblem on the chest. Four-frame animation loop: frame 1 shows the character in an idle stance with arms at sides; frame 2 depicts the right hand raised to summon a solar flare; frame 3 releases a burst of golden-orange particles outward; frame 4 returns to the idle pose with the cape gently fluttering. Use a warm palette of yellows, oranges, deep reds, with white highlights for glow, and a transparent background.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA0ElEQVR4nO3aQRKCMBBE0bn/pb8rFlKWJckIgf5QvVKYdHilGwoKU7GpqxdgSgCmBGBKAKbuAeDoFVeXNCWA5k3jKf0FQHb/SQDb+flb22f/W/wv058LoBr6C4Ds/v4FcF8ATV0EQHD/JgD789wN+D79DAB12/7+ApDdXwBk9xcA2f0FQHb/AQCjR9einT92CMD5TACYHf9+j3U2gAOZW8H+Hmv0FwACEAACEAACEAACWPoBOL/a5wuA7PkCIHu+r4WTHQGQHQGQHQGQHQGQnRcgRMvl/i04VQAAAABJRU5ErkJggg==",
+          "gifData": "R0lGODlhIAAgAIIAAAAAAP////8AAAD/AAAA////AP8A/wD//yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADW1i63P4wykmrvThrdbr/3VaA5CGW4HkMA8iaW/d+r4qG8Y1rNNt6tlsQNSwVSZuAcslkaprQJaYTjY5gE2q1ea1ot9Kd5AsOdClk8LlSlmbayidcRK/b7/h8IwEAIfkECQ8AAAAsAAAAACAAIAAAAztYutz+MMpJq704682718PQhB/JmF+qXiG6vnAsQ0Ft37eG77bO775fLiPEBYuBY1EpZP6cvJl0Sq0WEgAh+QQJDwAAACwAAAAAIAAgAAADWli63P4wykmrvTjrfY//oMeF5DGW4DkM4Wpungu6JyrC3yrfmv3VNiBKWNoEjshkUqNsIjMeZ1PBk0Sly0I1csUeqa9J1wuujLHlijeLWT8z7i9nTq/b73hGAgAh+QQJDwAAACwAAAAAIAAgAAADO1i63P4wykmrvTjrzbvXw9CEH8mYX6peIbq+cCxDQW3ft4bvts7vvl8uI8QFi4FjUSlk/py8mXRKrRYSADs=",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-12T12:05:13.433Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 1331117601
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1789214713433-solar-flare-sprite": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The sun emblem and cape are the most legible features, both belonging to the character, making the identity clear at 32x32 resolution.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1789171543800",
       "startedAt": "2026-09-12T00:05:43.800Z",
       "completedAt": "2026-09-12T00:05:43.800Z",
