@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1789279546373",
+      "startedAt": "2026-09-13T06:05:46.373Z",
+      "completedAt": "2026-09-13T06:05:46.373Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1789279526226-solaris-seeker",
+          "name": "Solaris Seeker",
+          "prompt": "A 32x32 pixel art sprite of a small, agile fox-like creature with bright orange fur, white-tipped tail, and a glowing solar emblem on its chest. Four-frame animation loop: frame 1 shows the creature in an idle stance with head slightly tilted; frame 2 depicts the right paw lifted forward as it begins a step; frame 3 captures the mid-step with the left paw forward and body slightly lowered; frame 4 shows the landing with both paws down and tail swaying. Subtle solar flare particles pulse around the emblem each frame, creating a smooth, looping animation.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA2UlEQVR4nO3a0QrCMBBE0fv/P70i2ocWKq1NTOzcwIBQ6GbiUUFKQRliw+gNGARgEIBBAAYBGCYGcHZNUNAggGY5u0bvVwACqB4Anq/2jmN1rdum3zNOXrsLABr2FwDZ/f0J4P8AtMUkgErufwnAon33E9F985v5PwbADfr7DUB2fwGQ3V8AZPcXANn9jwP4do06fOe/lgCcX5cAfPzb4+AGlntMeAB1aPaFM9jeY7L+AkAAAkAAAkAAAkAAc74Bzq9e8wVA9nwBkD3fx8LJjgDIjgDIjgDIzgMIA4GVLOriYQAAAABJRU5ErkJggg==",
+          "gifData": "R0lGODlhIAAgAIIAAAAAAP////8AAAD/AAAA////AP8A/wD//yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADUyi63P4wykmrvTjrXYP/oMeFZDCW4Hkc4Wpungu6JyrC9q3NK/vVNiBKWCKScDndJfm7FApM0bPyjJqmlGpUgJ1omdwCFbrtUqy7bQbNabvf8HgCACH5BAkPAAAALAAAAAAgACAAAAM7KLrc/jDKSau9OOvNu/+gcBzN+JkMGq5sNKptLM9yYN84ruX8vfe8H1CXGeaExgDSuBw2gc8ebUqtKhIAIfkECQ8AAAAsAAAAACAAIAAAA1Qoutz+MMpJq7046807C2AogtxoBuUppscxtugGwiKcqqQctnSu4aEbTqginnRA3yUZxBQKzNiz8owqppQq81qgQrcC7ESb5FqiMQz6Z/W43/D4JQEAIfkECQ8AAAAsAAAAACAAIAAAAzsoutz+MMpJq7046827/6BwHM34mQwarmw0qm0sz3Jg3ziu5fy997wfUJcZ5oTGANK4HDaBzx5tSq0qEgA7",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-13T06:05:26.225Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 958856843
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1789279526226-solaris-seeker": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The orange fur and white-tipped tail are the most legible visual elements, clearly identifying the fox-like creature. The solar emblem adds a distinguishing feature, and the animation poses are subtle at this resolution. Subject identity is carried by the body parts rather than a prop.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1789257964652",
       "startedAt": "2026-09-13T00:06:04.652Z",
       "completedAt": "2026-09-13T00:06:04.652Z",
