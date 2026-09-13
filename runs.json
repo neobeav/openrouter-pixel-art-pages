@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "id": "run-1789257964652",
+      "startedAt": "2026-09-13T00:06:04.652Z",
+      "completedAt": "2026-09-13T00:06:04.652Z",
+      "status": "completed",
+      "characters": [
+        {
+          "id": "char-1789257927975-solaris-scribe",
+          "name": "Solaris Scribe",
+          "prompt": "A 32x32 pixel art sprite of a robed celestial scribe holding a glowing quill, wearing a sun‑gold robe with teal trim, silver spectacles, and a floating parchment. Four‑frame animation loop: frame 1 – idle pose with quill resting against the parchment; frame 2 – quill lifts slightly and begins to write, emitting a soft golden spark; frame 3 – parchment unfurls revealing glowing runes that pulse with light; frame 4 – quill completes the stroke, sparks fade, and the scribe returns to the idle pose, ready to repeat.",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA00lEQVR4nO3V0QqDMBSD4bz/S0c2cYwykGpru+Yf5EbF05x9bLJlotho9AGIAEAEACIAEM0LQK8nKzK6GBEAmi5Ka/YHgLP71wM4rvwq/nWv44Hfqb23CgA17g8AZ/fnL8D/BaADKAA4uP91AOUTDy+gvPI4AK/Rn18AZ/cHgLP7A8DZ/QHg7P7qUb71EpjvbvMB4Oz5JwD2z70DfN4y5QJ8mus7KN8xY38AGAAAMAAAYAAAwACY8AtgvgDAfAGA+RoFgGjZAMDZAYCzAwBnBwDOzgZSFtaUNUSGWAAAAABJRU5ErkJggg==",
+          "gifData": "R0lGODlhIAAgAIIAAAAAAP////8AAAD/AAAA////AP8A/wD//yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAAACwAAAAAIAAgAAADVli63P4wykmrvThnwrvnmvKNRFiQn8kdx8eW4dp6r4p29g1rNDuDMd1uI8zdjKigcGhZAi2BgLMUrUSnhSrl6swGrNKudsJdei9YolldNLnf8Lh8/kgAACH5BAkPAAAALAAAAAAgACAAAAM7WLrc/jDKSau9OOvNu7/H0YQfyZhfqoKhuL5wLEtEbd+3hu+2zu++Xy4jxAWLhGNRKWT+nLyZdEqtMhIAIfkECQ8AAAAsAAAAACAAIAAAA1RYutz+MMpJq704602J/6DHhSQxluB5HOFqbp4Luicqwt8q35r91TYgSljC+XiX4w8TCChfzUrzqYhSpspqQOrMFqwT7FFreb4w5h6Vw2673/D4IwEAIfkECQ8AAAAsAAAAACAAIAAAAztYutz+MMpJq7046827v8fRhB/JmF+qgqG4vnAsS0Rt37eG77bO775fLiPEBYuEY1EpZP6cvJl0Sq0yEgA7",
+          "metadata": {
+            "model": "procedural (fallback after 2 model(s) × 3 attempts)",
+            "temperature": 0,
+            "generatedAt": "2026-09-13T00:05:27.975Z",
+            "attempts": 3,
+            "costUsd": 0,
+            "seed": 534476530
+          },
+          "frameCount": 4,
+          "frameWidth": 32,
+          "isAnimated": true
+        }
+      ],
+      "summary": {
+        "totalCharacters": 1,
+        "successfulCharacters": 1,
+        "failedCharacters": 0,
+        "totalCostUsd": 0,
+        "averageAttempts": 3
+      },
+      "criticAttempts": {
+        "char-1789257927975-solaris-scribe": [
+          {
+            "attempt": 1,
+            "verdict": "pass",
+            "reason": "The robe (subject) is the most prominent visual element, establishing the scribe’s identity. The parchment and quill are secondary but legible, confirming the described character. Subject dominance is clear, meeting pass criteria.",
+            "status": "pass"
+          }
+        ]
+      },
+      "source": "worker"
+    },
+    {
       "id": "run-1789236373981",
       "startedAt": "2026-09-12T18:06:13.981Z",
       "completedAt": "2026-09-12T18:06:13.981Z",
